@@ -1,4 +1,27 @@
- 
+@font-face {
+  font-family: "iran_sans";
+  src: url("../Fonts/BazarFont\ Sans_a4fran3.eot");
+  src: url("../Fonts/BazarFont\ a4fran3.eot") format("embedded-opentype"),
+    url("../Fonts/BazarFont\ a4fran3.woff") format("woff"),
+    url("../Fonts/BazarFont\ a4fran3.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../Fonts/BazarFont/YekanBakh-Regular.woff2") format("woff2");
+  font-weight: 400;
+  font-style: normal;
+  font-display: auto;
+}
+@font-face {
+  font-family: "YekanBakh";
+  src: url("../Fonts/BazarFont/YekanBakh-Medium.woff2") format("woff2");
+  font-weight: 500;
+  font-style: normal;
+  font-display: auto;
+} 
 
 @font-face {
     font-family: Vazir;
