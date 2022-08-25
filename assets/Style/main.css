@@ -786,3 +786,30 @@ h3 {
 .p4main {
   background-color: var(--color-mofid-blue-darker);
 }
+
+/* Begin_Header Moghaddamfar */
+.header{
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.header__login{
+  order:1;
+}
+.header__nav{
+  order: 2;
+}
+.header__menu{
+  order:3;
+}
+.header__menulist{
+  display: flex;
+  flex-direction: row;
+}
+
+.header__navlist li{
+  list-style-type: none;
+}
+ /* End_Header Moghaddamfar */
