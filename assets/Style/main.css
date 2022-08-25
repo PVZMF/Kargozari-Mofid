@@ -1,3 +1,4 @@
+
 @font-face {
   font-family: "iran_sans";
   src: url("../Fonts/BazarFont\ Sans_a4fran3.eot");
@@ -22,21 +23,6 @@
   font-style: normal;
   font-display: auto;
 } 
-
-@font-face {
-    font-family: Vazir;
-    src: url('assets/Fonts/webfonts/Vazirmatn-Regular.woff2');
-    font-weight: normal;
-    font-style: normal;
-    font-display: none;
-}
-@font-face {
-    font-family: Vazir;
-    src: url('assets/Fonts/webfonts/Vazirmatn-Bold.woff2');
-    font-weight: bold;
-    font-style: normal;
-    font-display: none;
-}
 
 :root {
         --color-white: #fff;
@@ -135,7 +121,106 @@
   * {
     box-sizing: border-box;
   }
-  /* begin pats3 main */
-  .p4main{
+  body{
+    direction:rtl;
+    font-family:"Vazir";
+}
+
+/*begin p2m*/
+.p2m{
+    display: flex;
+    flex-direction:column;
+    width:100%;   
+    align-items: center;
+}
+.p3main-titile{
+    display: flex;
+    flex-direction:column;
+    color:#2c2f33;
+    
+}
+.p3main-Text-moshavere{
+    display: flex;
+    flex-direction:column;
+    text-align: center;
+    line-height:25px;
+    padding-right:8px;
+    padding-left:8px;  
+    color: #585f66;  
+    font-size:14px;
+    
+}
+.p3main-submit{
+    display: flex;
+    flex-direction:column;
+    text-align:center;
+}
+.p3main-h2-main{
+    text-align:center;
+    font-size: 20px;
+}
+.p3main-h2-secondary{
+    margin-bottom:35px;
+    font-size: 16px;
+    color: #2c2f33;
+    text-align:center;
+  
+}
+.p3main-submit-button{
+    background-color:#004c6a;
+    border-radius:4px;
+    color:white;
+    padding:7px 23px 7px 23px;
+    border:1px;
+    margin-bottom:20px;
+    margin-top:30px;
+    font-family:"Vazir";
+    font-size:14px;
+    width:210px;
+    display:flex;
+    align-self: center;
+    justify-content:center;
+}
+.p3main-submit-button:hover{
+  background-color:#4d8297;
+}
+.p3main-more-information{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:5px;
+}
+.p3main-text-more{
+    color:#004c6a;
+}
+.p3main-arrow{
+    color:#004c6a;
+}
+.p3main-QR{
+    display: flex;
+    flex-direction: column;
+    color: #003b52;
+    padding:10px;
+    margin-top:60px;
+}
+.p3main-main3-1{
+    color:#2c2f33;
+    font-size:20px;
+}
+h3{
+    font-size: 18px;
+    color: #6e7780;
+    
+}
+.img-pmain3{
+  margin-top:20px;
+  width:100%;
+}
+#p3main-DIV1,#p3main-DIV2,#p3main-DIV3,#p3main-DIV4{
+  display: none;
+}
+/*end p2m*/
+/* begin pats3 main */
+.p4main{
     background-color: var(--color-mofid-blue-darker);
-  }
+    }
