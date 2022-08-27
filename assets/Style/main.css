@@ -213,7 +213,7 @@
   padding: 0 var(--space-3);
   align-items: center;
   display: flex;
-  width: 33.3333%;
+  width: 33.33%;
   flex-direction: column;
   text-align: center;
   margin-bottom: var(--space-5);
@@ -295,20 +295,15 @@
 
 .p4m__Button {
   padding: 7px 23px;
-  --button-theme-color: var(--color-mofid-green);
-  --button-theme-hover-color: var(--color-mofid-green-hover);
-  --button-theme-active-color: var(--color-mofid-green-active);
-  --button-theme-hover-outline-color: var(--color-mofid-green-outline-hover);
-  --button-theme-active-outline-color: var(--color-mofid-green-outline-active);
   font-size: var(--size-text-14);
   line-height: 24px;
   padding: 7px 23px;
-  background-color: var(--button-theme-color);
+  background-color: var(--color-mofid-green);
   color: var(--color-white);
   border-radius: var(--radius-small);
   border-width: 1px;
   border-style: solid;
-  border-color: var(--button-theme-color);
+  border-color: var(--color-mofid-green);
   transition: var(--transition-fast);
   cursor: pointer;
   flex-shrink: 0;
@@ -393,17 +388,9 @@
   max-width: 100%;
   margin: 0 auto;
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -0.5rem;
   margin-left: -0.5rem;
@@ -424,12 +411,9 @@
 
 @media only screen and (min-width: 75em) {
   .p5m__col-1 {
-    -ms-flex-preferred-size: 33.33333333%;
-    flex-basis: 33.33333333%;
-    max-width: 33.33333333%;
+    flex-basis: 33.33%;
+    max-width: 33.33%;
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
@@ -445,12 +429,9 @@
 
 @media only screen and (min-width: 75em) {
   .p5m__col-2 {
-    -ms-flex-preferred-size: 66.66666667%;
-    flex-basis: 66.66666667%;
-    max-width: 66.66666667%;
+    flex-basis: 66.66%;
+    max-width: 66.66%;
     box-sizing: border-box;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
     flex: 0 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
@@ -468,7 +449,6 @@
 .p5m__symbol {
   font-size: 19px;
   text-align: left;
-  direction: ltr;
   font-weight: 100;
   display: flex;
   color: var(--color-white);
@@ -548,17 +528,9 @@
 
 .p5m__row {
   box-sizing: border-box;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 1 auto;
   flex: 0 1 auto;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-  -ms-flex-direction: row;
   flex-direction: row;
-  -ms-flex-wrap: wrap;
   flex-wrap: wrap;
   margin-right: -0.5rem;
   margin-left: -0.5rem;
@@ -566,19 +538,14 @@
   padding: 0;
   border: 0;
   font: inherit;
-  vertical-align: baseline;
 }
 
 .p5m__col-2-1 {
   align-items: center;
   display: flex;
   flex-direction: column;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
   flex-basis: 100%;
   max-width: 100%;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
@@ -587,11 +554,9 @@
 
 @media only screen and (min-width: 75em) {
   .p5m__col-2-1 {
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     max-width: 50%;
     box-sizing: border-box;
-    -webkit-box-flex: 0;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
@@ -667,8 +632,6 @@
   flex-direction: column;
   flex-basis: 100%;
   max-width: 100%;
-  -webkit-box-flex: 0;
-  -ms-flex: 0 0 auto;
   flex: 0 0 auto;
   padding-right: 0.5rem;
   padding-left: 0.5rem;
@@ -677,11 +640,8 @@
 
 @media only screen and (min-width: 75em) {
   .p5m__col-2-2 {
-    -ms-flex-preferred-size: 50%;
     flex-basis: 50%;
     max-width: 50%;
-    -webkit-box-flex: 0;
-    -ms-flex: 0 0 auto;
     padding-right: 0.5rem;
     padding-left: 0.5rem;
   }
@@ -753,7 +713,6 @@
   border: 1px;
   margin-bottom: 20px;
   margin-top: 30px;
-  font-family: "Vazir";
   font-size: 14px;
   width: 210px;
   display: flex;
