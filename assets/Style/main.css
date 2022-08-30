@@ -1083,12 +1083,17 @@ a{text-decoration: none;}
 
  /***********************************************************************************************************/
 /*start p1m rezvan-ahmadbeigi*/
+.p1m{
+  width:100%;
+ 
+}
 .p1m-mainpicture{
   position: relative;
   margin-bottom:20px;
   
 }
 .p1m-Text{
+  width:100%;
   display:flex;
   flex-direction:column;
   position: absolute;
@@ -1118,11 +1123,130 @@ a{text-decoration: none;}
   background-color: #00a796;
   color:white;
   border-radius:6px;
-  border-color: #00a796;
+  border-color:#00a796
+  border-radius:var(--radius-small);
 
 }
 .p1m-btn:hover{
   background-color: #4dc1b6;
 }
 /*end p1m rezvan-ahmadbeigi*/
+
+/***********************************************************************************************************/
+/*start p6m rezvan-ahmadbeigi*/
+.p6m{
+  width:100%;
+  padding:10px;
+}
+ .p6m-education{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  text-align: center;
+  padding-top:80px;
+  padding-bottom:24px;
+ }
+ .p6m-header{
+  font-size:20px;
+  margin-bottom:var(--space-4);
+ }
+ .p6m-Text{
+  font-size: 16px;
+  padding-right:16px;
+  padding-left: 16px;
+  line-height:25px;
+  color: var(--color-text-medium);
+ }
+ .p6m-mofidClasses{
+  display: flex;
+  flex-direction: column;
+ }
+ .p6m--header{
+  text-align: center;
+  margin-top:60px;
+  margin-bottom: 30px;
+ }
+ .p6m-week{
+  width:100%;
+  display:flex;
+  flex-direction:row;
+  justify-content:space-between;
+  /*padding:10px;*/
+  text-align:center;
+  font-size:10px;
+ }
+ .p6m-btn-day{
+  background-color:var(--color-gray-light);
+  padding:4px 20px;
+  border-radius: var(--radius-small);
+  border-color:var(--color-gray-light); 
+  margin-top: 5px;
+
+}
+
+.p6m-Days{
+  display:flex;
+  flex-direction:column;
+}
+
+
+.box-ha{
+  width:100%;
+  /*padding:20px;*/
+  display: flex;
+  flex-direction: column;
+  margin-top:20px;
+}
+.box1 ,.box2 ,.box3{
+  width:100%;
+  display: flex;
+  flex-direction:row;
+  border-bottom: 1px solid var(--color-gray-light);
+  padding-bottom:10px;
+  padding-top:12px;
+}
+.matn1{
+  padding-right:20px;
+}
+#rez2,#rez3{
+  display: none;
+}
+.p1{
+  display:flex;
+  flex-direction:row;
+  gap:8px;
+  margin-top:7px;
+}
+.p2{
+  margin-top:10px;
+  font-size: var(--size-text-14);
+  color:var( --color-text-darker);
+}
+.p6m-btn{
+  display: flex;
+  flex-direction:row;
+  gap:8px;
+  padding:6px 15px;
+  align-items:center;
+  font-size: var(--size-text-14);
+  color:#00a796;
+  border-color:#00a796;
+  background-color:var(--transition);
+  border-radius:var(--radius-small);
+  margin-top:10px;
+}
+.p6m-btn:hover{
+ background-color:var( --color-mofid-green-outline-active);
+
+ border-color: var(--color-mofid-green-outline-hover);
+}
+
+.p6m-img{
+  width:100px; height:100px; 
+  border-radius: var(--radius-small);
+}
+.iconclock{
+  color: var(--color-text-dark);
+}
+ /*end p6m rezvan-ahmadbeigi*/
  /***********************************************************************************************************/
