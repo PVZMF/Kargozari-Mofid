@@ -115,6 +115,7 @@
   font-family: "YekanBakh";
   padding: 0;
   margin: 0%;
+  overflow-x: hidden;
 }
 
 .main{
@@ -849,7 +850,6 @@ body {
   display: none;
 }
 
-<<<<<<< HEAD
 /*end p2m*/
 /* begin pats3 main */
 .p4main {
@@ -859,26 +859,33 @@ body {
 
 /* Begin_Header Moghaddamfar */
 .header{
+  width: 100%;
+}
+
+.header__top{
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   direction: rtl;
   padding: 24px 16px 12px 16px;
   white-space: nowrap;
   font-size: var(--size-text-10);
+  flex-shrink: 0;
 }
 
 .header__nav{
   order:2;
   width: 100%;
 }
+
 .header__menu{
+  display: flex;
   /* position: absolute; */
   /* position: relative; */
   width: 100%;
   /* height: 100%; */
+  padding:16px 0;
   order:3;
 }
 .header__menulist{
@@ -889,21 +896,101 @@ body {
   justify-content: space-evenly;
   align-items: center;
 }
+.header__menuMobile{
+  display: block;
+  width: 100%;
+}
+.header__menulist-mob{
+  display:block;
+  width: 100%;
+}
+
+.header__logo{
+  margin-left: 50px;
+}
+
+.header__menuMobile_content{
+  display: none;
+  flex-direction: column;
+  align-items: flex-start;
+  height: 800px;
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: hidden;
+}
+.header__menuMobile__logo{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: var(--space-3);
+  padding-bottom: var(--space-3);
+  border-bottom: 1px dashed var(--color-gray);
+  width: 100%;
+}
+
+.header__menuMobile_list{
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 100%;
+  height: 100%;
+  font-size: var(--size-text-12);
+}
+.header__menuMobile_list li{
+  list-style-type: none;
+  margin: 16px;
+  display: flex;
+  flex-direction: column;
+  width: 96%;
+}
+.header__menuMobile_item{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.header_Mobilehidelist{
+  /* display: none; */
+}
+
+.header__svgHideListRotate{
+  transform: rotate(180deg);
+  transition: var(--transition);
+}
+
+.header_Mobilehidelist li a{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.header_Mobilehidecontent{
+  display: flex;
+}
+.header__Mobilehidedetails{
+  display: flex;
+  flex-direction: column; 
+}
+.header__Mobilehidedetails_footer{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
 #header__shadow{
   position: absolute;
-  height: 29px;
-  width: 39px;
+  height: 30px;
+  width: 60px;
   left: 0;
   background: linear-gradient(to right, #fdfdfd 0%, rgba(0, 76, 106, 0) 100%);
-  margin: 10px 0;
 }
+
 .header__menulist li{
   list-style-type: none;
   white-space: nowrap;
-  padding: var(--space-3) 0;
   margin-left: 24px;
   color: var(--color-mofid-blue);
 }
+
 .header__login{
   order:1;
   display: flex;
@@ -933,29 +1020,34 @@ body {
 .header_btnhamburger{
   box-sizing: border-box;
   background: transparent;
+  margin: 0 24px;;
   border: 0;
 }
 .header_btnhamburger span{
   background-color: var(--color-mofid-blue);
   display: block;
-  width: 18px;
+  width: 16px;
   height: 2px;
   margin-bottom: 3px;
   transition: 0.3s;
 }
 .header_btnhamburger-showmenu span{
-  width: 20px;
+  width: 17px;
   transform-origin: 0;
 }
 .header_btnhamburger-showmenu span:nth-child(2){
   visibility:hidden;
 }
 .header_btnhamburger-showmenu span:nth-child(1){
-  transform:  rotate(31deg);
+  transform:  rotate(36.9deg);
 }
 .header_btnhamburger-showmenu span:nth-child(3){
-  transform: rotate(-31deg);
+  transform: rotate(-36.9deg);
 }
+.header_hideElement{
+  display: none;
+}
+
  /* End_Header Moghaddamfar */
 
  /***********************************************************************************************************/
@@ -1003,3 +1095,5 @@ body {
 }
 /*end p1m rezvan-ahmadbeigi*/
  /***********************************************************************************************************/
+
+
