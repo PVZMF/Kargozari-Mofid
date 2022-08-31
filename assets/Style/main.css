@@ -994,10 +994,6 @@ a{text-decoration: none;}
   justify-content: space-between;
 }
 
-.header_Mobilehidelist{
-  /* display: none; */
-}
-
 .header__svgHideListRotate{
   transform: rotate(180deg);
   transition: var(--transition);
