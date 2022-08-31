@@ -50,7 +50,38 @@
 /*end p2m rezvan-ahmadbeigi*/
 
 /*start p6m rezvan-ahmadbeigi*/
+/***************************************************** */
+function func1(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  x.style.display="block";
+  y.style.display="none";
+  z.style.display="none";
+}
 
+function func2(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  x.style.display="none";
+  y.style.display="block";
+  z.style.display="none";
+ 
+}
+
+function func3(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="block"; 
+}
+
+
+/*Begin Header_page1 Moghaddamfa*/
+// Hamburger_menuMobile
 
 
 /***************************************************** */
