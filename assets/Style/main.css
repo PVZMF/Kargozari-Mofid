@@ -627,7 +627,6 @@
 }
 /*end p3m*/
 
-
  /***********************************************************************************************************/
 /* begin footer moradi */
 .footer__main_page{
@@ -717,14 +716,6 @@
   font-size: var(--size-text-14);
 }
 
-.footer__contact>p ::after{
-  content: "";
-  width:29px;
-  height: 24px;
-  margin-right: var(--space-2);
-  background:url(../Images/footer-up-247-15629.svg) no-repeat scroll cover;
-}
-
 .footer__site{
   direction: ltr;
   text-align: center;
@@ -742,7 +733,7 @@ a{text-decoration: none;}
   border-bottom: 1px solid #c7d0d9;
 }
 
-.footer__sub-menu > p{
+.footer__sub_menu > p{
   font-family: "YekanBakh";
   font-weight: bold;
   font-size: var(--size-text-16);
@@ -757,7 +748,7 @@ a{text-decoration: none;}
   gap:15px;
 }
 
-.footer__sub-menu__item  a{
+.footer__sub_menu__item  a{
   font-family:"yekanBakh";
   font-size: var(--size-text-14);
   font-weight:400;
@@ -847,55 +838,6 @@ a{text-decoration: none;}
   font-weight: 600;
   color:var(--color-text-darker);
   line-height: 30px;
-}
-
-@media only screen and (min-width: 575px){
-  .footer{
-    padding-top:50px;
-  }
-
-  .footer__main-page{
-  padding:0 160px 0 180px;
-}
-
-  .footer__container-logos{
-    display: flex;
-    flex-wrap: nowrap;
-    justify-content:center;
-  }
-
-  .footer__logos{
-    width:33.33%;
-  }
-
-  .footer__support{
-    flex-direction: row;
-    justify-content: space-between;
-    padding:20px 40px 20px 100px;
-  }
-
-  .footer__menu{
-    display:flex;
-    flex-direction: row;
-    justify-content: space-between;
-    padding:0 160px 50px 180px;
-  }
-
-  .footer__sub-menu__item{
-    display:flex;
-    flex-direction: column;
-  }
-
-  .footer__container{
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    align-items: baseline;
-  }
-
-  .footer__news{
-    justify-content: space-between;
-  }
 }
 /* end footer moradi */
  /***********************************************************************************************************/
@@ -1265,6 +1207,93 @@ a{text-decoration: none;}
  /*end p6m rezvan-ahmadbeigi*/
  /***********************************************************************************************************/
 
+ /***********************************************************************************************************/
+/* begin p7m  moradi */
+.p7m__container{
+  padding:32px;
+  margin:0 auto;
+}
+
+.p7m__education{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.p7m__item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:calc(100%-64px);
+  margin-bottom: 40px;
+}
+.p7m__item_header{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.p7m__box_image{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: var(--color-gray-light);
+}
+
+.p7m__image{
+  align-self: center;
+  width:35px;
+  height:35px;
+}
+
+.p7m__text{
+  margin-right: 15px;
+}
+.p7m__item_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p7m__item_content section{
+  margin-bottom: 30px;
+  font-family: "YekanBakh";
+  font-size: var(--size-text-16);
+  font-weight: bold;
+  color:var(--color-text-darker);
+  text-align: center;
+}
+
+.p7m__arrow_icon{
+  display: flex;
+  flex-direction: row;
+}
+
+.p7m__arrow_icon a{
+  color:var(--color-mofid-blue);
+  font-size: var(--size-text-14);
+  font-family: "YekanBakh";
+  font-weight: 600;
+  margin-left: 5px;
+}
+/* support button  دکمه پشتیبانی  */
+.btn_support{
+  background-color:var(--color-mofid-blue-dark);
+  position:fixed;
+  z-index: 100;
+  bottom: 30px;
+  right:30px;
+  width:70px;
+  height: 70px;
+  border-radius: 10px;
+  border:none;
+}
+ /* end part7 main moradi */
+ /***********************************************************************************************************/
 
  /***********************************************************************************************************/
 /* start part2 main  moradi */
