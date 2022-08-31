@@ -83,6 +83,66 @@ function func3(){
 /*Begin Header_page1 Moghaddamfa*/
 // Hamburger_menuMobile
 
+
+/***************************************************** */
+function func1(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  let h=document.getElementById("rez4");
+  x.style.display="block";
+  y.style.display="none";
+  z.style.display="none";
+  h.style.display="none";
+}
+
+function func2(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  let h=document.getElementById("rez4");
+  x.style.display="none";
+  y.style.display="block";
+  z.style.display="none";
+  h.style.display="none";
+ 
+}
+
+function func3(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  let h=document.getElementById("rez4");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="block";
+  h.style.display="none";
+}
+
+function func4(){
+  let x=document.getElementById("rez1");
+  let y=document.getElementById("rez2");
+  let z=document.getElementById("rez3");
+  let h=document.getElementById("rez4");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="none";
+  h.style.display="block";
+}
+
+var header = document.getElementById("test");
+var btns = header.getElementsByClassName("p6m-Days");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function(){
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace("active","");
+  this.className +="active";
+  });
+}
+
+// ****************************************************************************************************************** //
+/*Begin Header_page1 Moghaddamfa*/
+// Hamburger_menuMobile
 const btnHamburger = document.querySelector(".header_btnhamburger");
 btnHamburger.addEventListener("click",collapse);
 const menulist = document.querySelector(".header__menulist");
@@ -122,3 +182,5 @@ function showlist(item){
   }
 }
 
+/*End Header_page1 Moghaddamfa*/
+// ****************************************************************************************************************** //
