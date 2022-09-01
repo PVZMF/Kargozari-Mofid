@@ -117,6 +117,9 @@
   margin: 0%;
 }
 
+body{
+  overflow-x: hidden;
+}
 .main{
   display: block;
   position: relative;

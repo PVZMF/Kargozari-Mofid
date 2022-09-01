@@ -160,7 +160,7 @@ function collapse(){
     menulist.classList.add("header__menuMobile");
     document.querySelectorAll('.header__navitem').forEach(elem => elem.classList.add('header_hideElement'));
     document.querySelector('.header__menuMobile_content').style.display = 'flex';
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "hidden";
   }
 }
 
