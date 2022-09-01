@@ -152,7 +152,7 @@ function collapse(){
     menulist.classList.remove("header__menuMobile");
     document.querySelectorAll('.header__navitem').forEach(elem => elem.classList.remove('header_hideElement'));
     document.querySelector('.header__menuMobile_content').style.display = 'none';
-    document.body.style.overflow = "auto";
+    document.body.style.overflowY = "auto";
     console.log("remove");
     
   }else{

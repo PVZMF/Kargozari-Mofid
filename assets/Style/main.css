@@ -135,7 +135,7 @@
     width:60px;
     height:35px;
     position:fixed;
-    right:0px !important;
+    right:0 !important;
     top:200px;
     z-index:2;
     padding:12px 14px 12px 12px;
