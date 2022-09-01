@@ -61,7 +61,6 @@ function func1(){
   y.style.display="none";
   z.style.display="none";
 }
-
 function func2(){
   let x=document.getElementById("rez1");
   let y=document.getElementById("rez2");
@@ -71,7 +70,6 @@ function func2(){
   z.style.display="none";
  
 }
-
 function func3(){
   let x=document.getElementById("rez1");
   let y=document.getElementById("rez2");
