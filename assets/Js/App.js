@@ -119,17 +119,6 @@ function func3(){
   h.style.display="none";
 }
 
-
-var header = document.getElementById("test");
-var btns = header.getElementsByClassName("p6m-Days");
-for (var i = 0; i < btns.length; i++) {
-  btns[i].addEventListener("click", function() {
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace(" active", "");
-  this.className += " active";
-  });
-}
-
 function func4(){
   let x=document.getElementById("rez1");
   let y=document.getElementById("rez2");
@@ -141,13 +130,13 @@ function func4(){
   h.style.display="block";
 }
 
-var header = document.getElementById("test");
-var btns = header.getElementsByClassName("p6m-Days");
-for (var i = 0; i < btns.length; i++) {
+const header = document.getElementById("test");
+const btns = header.getElementsByClassName("p6m-Days");
+for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace("active","");
-  this.className +="active";
+  const current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active","");
+  this.className +=" active";
   });
 }
 
