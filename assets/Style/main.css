@@ -1639,5 +1639,9 @@ a{text-decoration: none;}
 .iconclock{
   color: var(--color-text-dark);
 }
+.active{
+  color:#00a796;
+}
  /*end p6m rezvan-ahmadbeigi*/
  /***********************************************************************************************************/
+
