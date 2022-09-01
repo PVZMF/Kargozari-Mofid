@@ -61,6 +61,7 @@ function func1(){
   y.style.display="none";
   z.style.display="none";
 }
+
 function func2(){
   let x=document.getElementById("rez1");
   let y=document.getElementById("rez2");
@@ -70,6 +71,7 @@ function func2(){
   z.style.display="none";
  
 }
+
 function func3(){
   let x=document.getElementById("rez1");
   let y=document.getElementById("rez2");
@@ -78,4 +80,14 @@ function func3(){
   y.style.display="none";
   z.style.display="block";
  
+}
+
+var header = document.getElementById("test");
+var btns = header.getElementsByClassName("p6m-Days");
+for (var i = 0; i < btns.length; i++) {
+  btns[i].addEventListener("click", function() {
+  var current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active", "");
+  this.className += " active";
+  });
 }
