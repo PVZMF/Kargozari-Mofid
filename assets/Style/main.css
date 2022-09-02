@@ -1069,7 +1069,7 @@ a{text-decoration: none;}
 .shadow{
   position: absolute;
   width:100%;
-  height:800px;
+  height:100%;
   background: linear-gradient(to top, #00243c 0%, rgba(0, 76, 106, 0) 100%);
   bottom:0;
 }
@@ -1136,23 +1136,19 @@ a{text-decoration: none;}
   border-radius: var(--radius-small);
   border-color:var(--color-gray-light); 
   margin-top: 5px;
-
 }
-
 .p6m-Days{
   display:flex;
   flex-direction:column;
 }
-
-
-.box-ha{
+.p6m-boxes{
   width:100%;
   /*padding:20px;*/
   display: flex;
   flex-direction: column;
   margin-top:20px;
 }
-.box1 ,.box2 ,.box3{
+.p6m-box1 ,.p6m-box2 ,.p6m-box3{
   width:100%;
   display: flex;
   flex-direction:row;
@@ -1160,20 +1156,20 @@ a{text-decoration: none;}
   padding-bottom:10px;
   padding-top:12px;
 }
-.matn1{
+.p6m-textbox{
   padding-right:20px;
 }
 
-#rez2,#rez3{
+#p6m-part2,#p6m-part3,#p6m-part4,#p6m-part5{
   display: none;
 }
-.p1{
+.p6m-time{
   display:flex;
   flex-direction:row;
   gap:8px;
   margin-top:7px;
 }
-.p2{
+.p6m-titileOfclass{
   margin-top:10px;
   font-size: var(--size-text-14);
   color:var( --color-text-darker);
@@ -1521,6 +1517,8 @@ a{text-decoration: none;}
 }
  /*end p6m rezvan-ahmadbeigi*/
  /***********************************************************************************************************/
+
+
 /* ******************************************************************************************************** */
 /* begin part8 main moradi */
 .p8m__header{
