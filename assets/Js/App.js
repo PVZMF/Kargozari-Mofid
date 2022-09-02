@@ -51,56 +51,25 @@
 
 /*start p6m rezvan-ahmadbeigi*/
 /***************************************************** */
-function func1(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  x.style.display="block";
-  y.style.display="none";
-  z.style.display="none";
-}
 
-function func2(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  x.style.display="none";
-  y.style.display="block";
-  z.style.display="none";
- 
-}
-
-function func3(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  x.style.display="none";
-  y.style.display="none";
-  z.style.display="block"; 
-}
-
-
-/*Begin Header_page1 Moghaddamfa*/
-// Hamburger_menuMobile
-
-
-/***************************************************** */
-function func1(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  let h=document.getElementById("rez4");
+function saturday(){
+  let x=document.getElementById("p6m-part1");
+  let y=document.getElementById("p6m-part2");
+  let z=document.getElementById("p6m-part3");
+  let h=document.getElementById("p6m-part4");
+  let H=document.getElementById("p6m-part5");
   x.style.display="block";
   y.style.display="none";
   z.style.display="none";
   h.style.display="none";
 }
 
-function func2(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  let h=document.getElementById("rez4");
+function sunday(){
+  let x=document.getElementById("p6m-part1");
+  let y=document.getElementById("p6m-part2");
+  let z=document.getElementById("p6m-part3");
+  let h=document.getElementById("p6m-part4");
+  let H=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="block";
   z.style.display="none";
@@ -108,29 +77,43 @@ function func2(){
  
 }
 
-function func3(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  let h=document.getElementById("rez4");
+function monday(){
+  let x=document.getElementById("p6m-part1");
+  let y=document.getElementById("p6m-part2");
+  let z=document.getElementById("p6m-part3");
+  let h=document.getElementById("p6m-part4");
+  let H=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="block";
   h.style.display="none";
 }
 
-function func4(){
-  let x=document.getElementById("rez1");
-  let y=document.getElementById("rez2");
-  let z=document.getElementById("rez3");
-  let h=document.getElementById("rez4");
+function tuesday(){
+  let x=document.getElementById("p6m-part1");
+  let y=document.getElementById("p6m-part2");
+  let z=document.getElementById("p6m-part3");
+  let h=document.getElementById("p6m-part4");
+  let H=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="block";
 }
+function wednesday(){
+  let x=document.getElementById("p6m-part1");
+  let y=document.getElementById("p6m-part2");
+  let z=document.getElementById("p6m-part3");
+  let h=document.getElementById("p6m-part4");
+  let H=document.getElementById("p6m-part5");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="none";
+  h.style.display="none";
+  H.style.display="block";
+}
 
-const header = document.getElementById("test");
+const header = document.getElementById("p6m-days");
 const btns = header.getElementsByClassName("p6m-Days");
 for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
@@ -139,7 +122,7 @@ for (let i = 0; i < btns.length; i++) {
   this.className +=" active";
   });
 }
-
+/*end p6m rezvan-ahmadbeigi*/
 // ****************************************************************************************************************** //
 /*Begin Header_page1 Moghaddamfa*/
 // Hamburger_menuMobile
@@ -185,3 +168,77 @@ function showlist(item){
 /*End Header_page1 Moghaddamfa*/
 // ****************************************************************************************************************** //
 
+/********************page2********************/
+/*start p8m rezvan-ahmadbeigi*/
+/***************************************************** */
+
+function saturday1(){
+  let x=document.getElementById("p8m-part1");
+  let y=document.getElementById("p8m-part2");
+  let z=document.getElementById("p8m-part3");
+  let h=document.getElementById("p8m-part4");
+  let H=document.getElementById("p8m-part5");
+  x.style.display="block";
+  y.style.display="none";
+  z.style.display="none";
+  h.style.display="none";
+}
+
+function sunday1(){
+  let x=document.getElementById("p8m-part1");
+  let y=document.getElementById("p8m-part2");
+  let z=document.getElementById("p8m-part3");
+  let h=document.getElementById("p8m-part4");
+  let H=document.getElementById("p8m-part5");
+  x.style.display="none";
+  y.style.display="block";
+  z.style.display="none";
+  h.style.display="none";
+ 
+}
+
+function monday1(){
+  let x=document.getElementById("p8m-part1");
+  let y=document.getElementById("p8m-part2");
+  let z=document.getElementById("p8m-part3");
+  let h=document.getElementById("p8m-part4");
+  let H=document.getElementById("p8m-part5");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="block";
+  h.style.display="none";
+}
+
+function tuesday1(){
+  let x=document.getElementById("p8m-part1");
+  let y=document.getElementById("p8m-part2");
+  let z=document.getElementById("p8m-part3");
+  let h=document.getElementById("p8m-part4");
+  let H=document.getElementById("p8m-part5");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="none";
+  h.style.display="block";
+}
+function wednesday1(){
+  let x=document.getElementById("p8m-part1");
+  let y=document.getElementById("p8m-part2");
+  let z=document.getElementById("p8m-part3");
+  let h=document.getElementById("p8m-part4");
+  let H=document.getElementById("p8m-part5");
+  x.style.display="none";
+  y.style.display="none";
+  z.style.display="none";
+  h.style.display="none";
+  H.style.display="block";
+}
+const header1 = document.getElementById("p8m-days");
+const btns1 = header1.getElementsByClassName("p8m-Days");
+for (let i = 0; i < btns1.length; i++) {
+  btns1[i].addEventListener("click", function(){
+  const current1 = document.getElementsByClassName("active");
+  current1[0].className = current1[0].className.replace(" active","");
+  this.className +=" active";
+  });
+}
+/*end p8m rezvan-ahmadbeigi*/
