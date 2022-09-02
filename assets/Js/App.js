@@ -130,13 +130,13 @@ function func4(){
   h.style.display="block";
 }
 
-var header = document.getElementById("test");
-var btns = header.getElementsByClassName("p6m-Days");
-for (var i = 0; i < btns.length; i++) {
+const header = document.getElementById("test");
+const btns = header.getElementsByClassName("p6m-Days");
+for (let i = 0; i < btns.length; i++) {
   btns[i].addEventListener("click", function(){
-  var current = document.getElementsByClassName("active");
-  current[0].className = current[0].className.replace("active","");
-  this.className +="active";
+  const current = document.getElementsByClassName("active");
+  current[0].className = current[0].className.replace(" active","");
+  this.className +=" active";
   });
 }
 
@@ -148,19 +148,19 @@ btnHamburger.addEventListener("click",collapse);
 const menulist = document.querySelector(".header__menulist");
 function collapse(){
   if(btnHamburger.classList.contains('header_btnhamburger-showmenu')){
+    document.querySelector('.header__btnEasyTrader').style.display = "flex";
     btnHamburger.classList.remove('header_btnhamburger-showmenu');
     menulist.classList.remove("header__menuMobile");
     document.querySelectorAll('.header__navitem').forEach(elem => elem.classList.remove('header_hideElement'));
     document.querySelector('.header__menuMobile_content').style.display = 'none';
-    document.body.style.overflow = "auto";
-    console.log("remove");
-    
+    document.body.style.overflowY = "auto";
   }else{
     btnHamburger.classList.add('header_btnhamburger-showmenu');
     menulist.classList.add("header__menuMobile");
     document.querySelectorAll('.header__navitem').forEach(elem => elem.classList.add('header_hideElement'));
+    document.querySelector('.header__btnEasyTrader').style.display = "none";
     document.querySelector('.header__menuMobile_content').style.display = 'flex';
-    document.body.style.overflow = "hidden";
+    document.body.style.overflowY = "hidden";
   }
 }
 
@@ -184,3 +184,4 @@ function showlist(item){
 
 /*End Header_page1 Moghaddamfa*/
 // ****************************************************************************************************************** //
+
