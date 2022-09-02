@@ -117,3 +117,12 @@ this.className +=" active";
 }
 /*end p8m2 rezvan-ahmadbeigi*/
 // ****************************************************************************************************************** //
+
+// ****************************************************************************************************************** //
+/*Begin p5_page2 Moghaddamfa*/
+document.querySelectorAll(".p5m2__logolist").forEach(function (elem, i){
+    elem.style.transition = `all 1000ms cubic-bezier(.68,-0.55,.27,1.55) ${i*1000}ms`;
+});
+
+setTimeout(
+    ()=>document.querySelectorAll(".p5m2__logolist").forEach(elem => elem.style.backgroundColor = "var(--color-mofid-green)"),1)
