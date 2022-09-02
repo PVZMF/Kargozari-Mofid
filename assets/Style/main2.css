@@ -486,8 +486,95 @@
   
 /* End_Header Moghaddamfar */
 /***********************************************************************************************************/
+/* ******************************************************************************************************* */
+/* bigin part9 main2  moradi */
+.p9m2__container{
+  padding:32px;
+  margin:0 auto;
+}
 
+.p9m2__education{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: var(--space-5);
+}
+.p9m2__item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:calc(100%-64px);
+  margin-bottom: 40px;
+}
+.p9m2__item_header{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
+.p9m2__box_image{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: var(--color-gray-light);
+}
+
+.p9m2__image{
+  align-self: center;
+  width:35px;
+  height:35px;
+}
+
+.p9m2__text{
+  margin-right: 15px;
+}
+.p9m2__item_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p9m2__item_content section{
+  margin-bottom:var(--space-5);
+  font-family: "YekanBakh";
+  font-size: var(--size-text-16);
+  font-weight: 500;
+  color:var(--color-text-darker);
+  text-align: center;
+  line-height: var(--size-line-height-26);
+}
+
+.p9m2__arrow_icon{
+  display: flex;
+  flex-direction: row;
+}
+
+.p9m2__arrow_icon a{
+  color:var(--color-mofid-blue);
+  font-size: var(--size-text-14);
+  font-family: "YekanBakh";
+  font-weight: 500;
+  margin-left: 5px;
+}
+/* support button  دکمه پشتیبانی  */
+.btn_support{
+  background-color:var(--color-mofid-blue-dark);
+  position:fixed;
+  z-index: 100;
+  bottom: 30px;
+  right:30px;
+  width:70px;
+  height: 70px;
+  border-radius: 10px;
+  border:none;
+}
+/* end part9 main2  moradi*/
+/* ******************************************************************************************************* */
 /***********************************************************************************************************/
 /* begin footer moradi */
 
