@@ -169,15 +169,15 @@ function showlist(item){
 // ****************************************************************************************************************** //
 
 /********************page2********************/
-/*start p8m rezvan-ahmadbeigi*/
+/*start p8m2 rezvan-ahmadbeigi*/
 /***************************************************** */
 
 function saturday1(){
-  let x=document.getElementById("p8m-part1");
-  let y=document.getElementById("p8m-part2");
-  let z=document.getElementById("p8m-part3");
-  let h=document.getElementById("p8m-part4");
-  let H=document.getElementById("p8m-part5");
+  let x=document.getElementById("p8m2-part1");
+  let y=document.getElementById("p8m2-part2");
+  let z=document.getElementById("p8m2-part3");
+  let h=document.getElementById("p8m2-part4");
+  let H=document.getElementById("p8m2-part5");
   x.style.display="block";
   y.style.display="none";
   z.style.display="none";
@@ -185,11 +185,11 @@ function saturday1(){
 }
 
 function sunday1(){
-  let x=document.getElementById("p8m-part1");
-  let y=document.getElementById("p8m-part2");
-  let z=document.getElementById("p8m-part3");
-  let h=document.getElementById("p8m-part4");
-  let H=document.getElementById("p8m-part5");
+  let x=document.getElementById("p8m2-part1");
+  let y=document.getElementById("p8m2-part2");
+  let z=document.getElementById("p8m2-part3");
+  let h=document.getElementById("p8m2-part4");
+  let H=document.getElementById("p8m2-part5");
   x.style.display="none";
   y.style.display="block";
   z.style.display="none";
@@ -198,11 +198,11 @@ function sunday1(){
 }
 
 function monday1(){
-  let x=document.getElementById("p8m-part1");
-  let y=document.getElementById("p8m-part2");
-  let z=document.getElementById("p8m-part3");
-  let h=document.getElementById("p8m-part4");
-  let H=document.getElementById("p8m-part5");
+  let x=document.getElementById("p8m2-part1");
+  let y=document.getElementById("p8m2-part2");
+  let z=document.getElementById("p8m2-part3");
+  let h=document.getElementById("p8m2-part4");
+  let H=document.getElementById("p8m2-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="block";
@@ -210,30 +210,30 @@ function monday1(){
 }
 
 function tuesday1(){
-  let x=document.getElementById("p8m-part1");
-  let y=document.getElementById("p8m-part2");
-  let z=document.getElementById("p8m-part3");
-  let h=document.getElementById("p8m-part4");
-  let H=document.getElementById("p8m-part5");
+  let x=document.getElementById("p8m2-part1");
+  let y=document.getElementById("p8m2-part2");
+  let z=document.getElementById("p8m2-part3");
+  let h=document.getElementById("p8m2-part4");
+  let H=document.getElementById("p8m2-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="block";
 }
 function wednesday1(){
-  let x=document.getElementById("p8m-part1");
-  let y=document.getElementById("p8m-part2");
-  let z=document.getElementById("p8m-part3");
-  let h=document.getElementById("p8m-part4");
-  let H=document.getElementById("p8m-part5");
+  let x=document.getElementById("p8m2-part1");
+  let y=document.getElementById("p8m2-part2");
+  let z=document.getElementById("p8m2-part3");
+  let h=document.getElementById("p8m2-part4");
+  let H=document.getElementById("p8m2-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="none";
   H.style.display="block";
 }
-const header1 = document.getElementById("p8m-days");
-const btns1 = header1.getElementsByClassName("p8m-Days");
+const header1 = document.getElementById("p8m2-days");
+const btns1 = header1.getElementsByClassName("p8m2-Days");
 for (let i = 0; i < btns1.length; i++) {
   btns1[i].addEventListener("click", function(){
   const current1 = document.getElementsByClassName("active");
@@ -241,4 +241,4 @@ for (let i = 0; i < btns1.length; i++) {
   this.className +=" active";
   });
 }
-/*end p8m rezvan-ahmadbeigi*/
+/*end p8m2 rezvan-ahmadbeigi*/

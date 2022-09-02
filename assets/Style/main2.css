@@ -153,12 +153,12 @@
   }
 /*end btn sabet*/
 /***********************************************************************************************************/
-/*start p8m3 rezvan-ahmadbeigi*/
-.p8m{
+/*start p8m2 rezvan-ahmadbeigi*/
+.p8m2{
     width:100%;
     padding:10px;
   }
-   .p8m-education{
+   .p8m2-education{
     display:flex;
     flex-direction:column;
     align-items:center;
@@ -166,27 +166,27 @@
     padding-top:80px;
     padding-bottom:24px;
    }
-   .p8m-header{
+   .p8m2-header{
     font-size:20px;
     margin-bottom:var(--space-4);
    }
-   .p8m-Text{
+   .p8m2-Text{
     font-size: 16px;
     padding-right:16px;
     padding-left: 16px;
     line-height:25px;
     color: var(--color-text-medium);
    }
-   .p8m-mofidClasses{
+   .p8m2-mofidClasses{
     display: flex;
     flex-direction: column;
    }
-   .p8m--header{
+   .p8m2--header{
     text-align: center;
     margin-top:60px;
     margin-bottom: 30px;
    }
-   .p8m-week{
+   .p8m2-week{
     width:100%;
     display:flex;
     flex-direction:row;
@@ -195,7 +195,7 @@
     text-align:center;
     font-size:10px;
    }
-   .p8m-btn-day{
+   .p8m2-btn-day{
     background-color:var(--color-gray-light);
     padding:4px 20px;
     border-radius: var(--radius-small);
@@ -203,19 +203,19 @@
     margin-top: 5px;
   
   }
-  .p8m-Days{
+  .p8m2-Days{
     display:flex;
     flex-direction:column;
   }
   
-  .p8m-boxes{
+  .p8m2-boxes{
     width:100%;
     /*padding:20px;*/
     display: flex;
     flex-direction: column;
     margin-top:20px;
   }
-  .p8m-box1 ,.p8m-box2 ,.p8m-box3{
+  .p8m2-box1 ,.p8m2-box2 ,.p8m2-box3{
     width:100%;
     display: flex;
     flex-direction:row;
@@ -223,25 +223,25 @@
     padding-bottom:10px;
     padding-top:12px;
   }
-  .p8m-textbox{
+  .p8m2-textbox{
     padding-right:20px;
   }
   
-  #p8m-part2,#p8m-part3,#p8m-part4,#p8m-part5{
+  #p8m2-part2,#p8m2-part3,#p8m2-part4,#p8m2-part5{
     display: none;
   }
-  .p8m-time{
+  .p8m2-time{
     display:flex;
     flex-direction:row;
     gap:8px;
     margin-top:7px;
   }
-  .p8m-titileOfclass{
+  .p8m2-titileOfclass{
     margin-top:10px;
     font-size: var(--size-text-14);
     color:var( --color-text-darker);
   }
-  .p8m-btn{
+  .p8m2-btn{
     display: flex;
     flex-direction:row;
     gap:8px;
@@ -254,13 +254,13 @@
     border-radius:var(--radius-small);
     margin-top:10px;
   }
-  .p8m-btn:hover{
+  .p8m2-btn:hover{
    background-color:var( --color-mofid-green-outline-active);
   
    border-color: var(--color-mofid-green-outline-hover);
   }
   
-  .p8m-img{
+  .p8m2-img{
     width:100px; height:100px; 
     border-radius: var(--radius-small);
   }
@@ -270,4 +270,4 @@
   .active{
       color:#00a796;
     }
-   /*end p8m3 rezvan-ahmadbeigi*/
+   /*end p8m2 rezvan-ahmadbeigi*/
