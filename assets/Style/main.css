@@ -846,6 +846,8 @@ a{text-decoration: none;}
 /* Begin_Header Moghaddamfar */
 .header{
   width: 100%;
+  position:sticky;
+  z-index: 100;
 }
 
 .header__top{
