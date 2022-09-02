@@ -120,7 +120,7 @@
   body{
     overflow-x: hidden;
   }
-  .main{
+  .main2{
     display: block;
     position: relative;
     padding-top: 30px;
@@ -487,6 +487,37 @@
 /* End_Header Moghaddamfar */
 /***********************************************************************************************************/
 
+/***********************************************************************************************************/
+/*begin p5m2 Moghaddamfar*/
+/***********************************************************************************************************/
+.p5m2__InvestmentTrust{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.p5m2__investment-trust-list li{
+  display:flex;
+  flex-direction: column;
+  margin: var(--space-5) 0;
+}
+.p5m2__image{
+  margin-bottom: var(--space-5);
+}
+.p5m2__logolist{
+  content: "";
+  width: 24px;
+  height: 24px;
+  border-radius: 50%;
+  background-color: #0ea44a;
+  border: 1px solid var(--color-gray);
+  margin-left: 24px;
+}
+
+
+/*end p5m2 Moghaddamfar*/
+/***********************************************************************************************************/
+
 
 /***********************************************************************************************************/
 /* begin footer moradi */
@@ -507,7 +538,7 @@
 }
 
 .footer__service{
-  font-size:vqr(--size-text-16);
+  font-size:var(--size-text-16);
   margin-bottom: var(--space-2);
   font-weight: bold;
 }
@@ -629,7 +660,7 @@ a{text-decoration: none;}
   font-family: "YekanBakh";
   border:none;
   border-radius: 8px 0 0 8px;
-  font-weight: 600px;
+  font-weight: 600;
 }
 
 .footer__copyright{
