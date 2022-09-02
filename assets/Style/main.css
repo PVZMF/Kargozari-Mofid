@@ -117,6 +117,9 @@
   margin: 0%;
 }
 
+body{
+  overflow-x: hidden;
+}
 .main{
   display: block;
   position: relative;
@@ -135,7 +138,7 @@
     width:60px;
     height:35px;
     position:fixed;
-    right:0px !important;
+    right:0 !important;
     top:200px;
     z-index:2;
     padding:12px 14px 12px 12px;
@@ -867,13 +870,11 @@ a{text-decoration: none;}
 
 .header__menu{
   display: flex;
-  /* position: absolute; */
-  /* position: relative; */
   width: 100%;
-  /* height: 100%; */
   padding:16px 0;
   order:3;
 }
+
 .header__menulist{
   display: flex;
   position: absolute;
@@ -882,6 +883,13 @@ a{text-decoration: none;}
   justify-content: space-evenly;
   align-items: center;
 }
+.header__navitem{
+  font-size: var(--size-text-12);
+  color: var(--color-mofid-blue);
+  font-weight: 800;
+  padding: 4px 8px;
+}
+
 .header__menuMobile{
   display: block;
   width: 100%;
@@ -1115,6 +1123,8 @@ a{text-decoration: none;}
   background: transparent;
   margin: 0 24px;;
   border: 0;
+  padding: 9px 8px;
+  z-index: 10;
 }
 .header_btnhamburger span{
   background-color: var(--color-mofid-blue);
@@ -1144,6 +1154,7 @@ a{text-decoration: none;}
 .header__styleFont{
   font-size: var(--size-text-12);
   color: var(--color-mofid-blue);
+  font-weight: 800;
 }
 
 .header__MobileTitleFontStyle{
@@ -1155,6 +1166,14 @@ a{text-decoration: none;}
   font-size: var(--size-text-12);
   color: var(--color-text-lighter);
 }
+
+.header__btnEasyTrader{
+  background-color: #f2f5f6;
+  border-radius: var(--radius-small);
+  padding: 4px 8px;
+  display: flex;
+}
+
  /* End_Header Moghaddamfar */
  /***********************************************************************************************************/
 
@@ -1192,7 +1211,7 @@ a{text-decoration: none;}
   position: absolute;
   width:100%;
   height:100%;
-  
+
   background: linear-gradient(to top, #00243c 0%, rgba(0, 76, 106, 0) 100%);
   bottom:0;
 }
