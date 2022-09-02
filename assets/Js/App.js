@@ -234,7 +234,7 @@ function wednesday1(){
 }
 const header1 = document.getElementById("p8m2-days");
 const btns1 = header1.getElementsByClassName("p8m2-Days");
-for (let i = 0; i < btns1.length; i++) {
+for (let i=0; i<btns1.length; i++) {
   btns1[i].addEventListener("click", function(){
   const current1 = document.getElementsByClassName("active");
   current1[0].className = current1[0].className.replace(" active","");
