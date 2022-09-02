@@ -1007,6 +1007,7 @@ a{text-decoration: none;}
   box-sizing: border-box;
   background: transparent;
   margin: 0 24px;;
+  padding: 9px 8px;
   border: 0;
 }
 .header_btnhamburger span{
