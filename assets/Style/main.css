@@ -1191,7 +1191,8 @@ a{text-decoration: none;}
 .shadow{
   position: absolute;
   width:100%;
-  height:800px;
+  height:100%;
+  
   background: linear-gradient(to top, #00243c 0%, rgba(0, 76, 106, 0) 100%);
   bottom:0;
 }
