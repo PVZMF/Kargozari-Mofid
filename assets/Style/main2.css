@@ -490,29 +490,55 @@
 /***********************************************************************************************************/
 /*begin p5m2 Moghaddamfar*/
 
-.p5m2__InvestmentTrust{
+.p5m2__InvestmentTrust_container{
   display: flex;
   flex-direction: column;
   align-items: center;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+.p5m2__InvestmentTrust_container h2{
+  margin-bottom: var(--space-7);
+  font-size: var(--size-text-18);
 }
 
+.p5m2__InvestmentTrust{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: 100%;
+}
+.p5m2__InvestmentTrust_contents{
+  order:2;
+}
+.p5m2__investment-trust-list{
+  order:1;
+}
 .p5m2__investment-trust-list li{
   display:flex;
-  flex-direction: column;
+  flex-direction: row;
   margin: var(--space-5) 0;
 }
+.p5m2__investment-trust-list span{
+  order: 2;
+}
 .p5m2__image{
-  margin-bottom: var(--space-5);
+  display: flex;
+  align-items: center;
+  order: 1;
+  justify-content: center;
+  width: 100%;
 }
 .p5m2__logolist{
+  order: 1;
   content: "";
   width: 24px;
   height: 24px;
   border-radius: 50%;
-  background-color: #0ea44a;
   border: 1px solid var(--color-gray);
   margin-left: 24px;
 }
+
 /*end p5m2 Moghaddamfar*/
 /***********************************************************************************************************/
 
