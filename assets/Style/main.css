@@ -632,8 +632,8 @@
 /***********************************************************************************************************/
 /*start p1m rezvan-ahmadbeigi*/
 .p1m-mainpicture {
-
-
+  
+}
  /***********************************************************************************************************/
 /* begin footer moradi */
 .footer__main_page{
@@ -1063,7 +1063,7 @@ a{text-decoration: none;}
 .p1m-Text {
   display: flex;
   flex-direction: column;
-
+}
 .p1m-Text{
   width:100%;
   display:flex;
