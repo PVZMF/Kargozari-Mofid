@@ -1096,6 +1096,97 @@
 /***********************************************************************************************************/
 
 /***********************************************************************************************************/
+/*start p6m2 Moghaddamfar*/
+.p6m2__cart{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 340px;
+  margin: 0 24px;
+  box-shadow: var(--shadow-small-center);
+}
+.p6m2__cover{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.p6m2__logo{
+  width: 84px;
+  height: 84px;
+  border-radius: 50%;
+  margin-top: -42px;
+  z-index: 3;
+}
+.p6m2__ImageContainer{
+  position: relative;
+  height: 80px;
+  width: 100%;
+  margin-top: -42px;
+}
+.p6m2__image{
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  filter: grayscale(1);
+  object-fit: cover;
+}
+.p6m2__image img{
+  z-index: 1;
+  width: 100%;
+  border-radius: var(--radius-small) var(--radius-small) 0 0;
+}
+.p6m2__shadow{
+  position: absolute;
+  content: "";
+  width: 100%;
+  height: 100%;
+  right: 0;
+  background:linear-gradient(to bottom, var(--color-pishtaz-medium), rgba(0, 0, 0, 0));
+  z-index: 2;
+}
+.p6m2__content{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+.p6m2__context{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.p6m2__profit{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.p6m2__title{
+  font-size: var(--size-text-12);
+  color: var(--color-text-darker);
+}
+.p6m2__totalInvest{
+  display: flex;
+  flex-direction: column;
+}
+.p6m2__profit__date{
+  display: flex;
+  flex-direction: column;
+}
+.p6m2__typeInvest{
+  display: flex;
+  flex-direction: column;
+}
+.p6m2__typeInvest:nth-child(1){
+  font-size: var(--size-text-14);
+  font-weight: bold;
+}
+/*end p6m2 Moghaddamfar*/
+/***********************************************************************************************************/
+
+/***********************************************************************************************************/
 /*start p8m2 rezvan-ahmadbeigi*/
 .p8m2{
     width:100%;
