@@ -223,8 +223,7 @@
 }
 .p5m3__header{
     font-family: "YekanBakh";
-    font-size: var(--size-text-20);
-    /* font-weight: ; */
+    font-size: var(--size-text-20); 
     color:var(--color-text-darker);
     margin-bottom: var(--space-4);
     text-align: center;
@@ -263,7 +262,7 @@
     height: 20px;
     width: 20px;
 }
-.p5m3__moreinformation{
+.p5m3__more_information{
     display: flex;
     justify-content: center;
     align-items: center;
@@ -271,13 +270,29 @@
     font-size: var(--size-body-font);
     color: var(--color-mofid-blue);
     line-height: var(--size-body-line-height);
+    margin-bottom: var(--space-5);
 }
 
-.p5m3__moreinformation::after{
+.p5m3__more_information::after{
     display: block;
     content: ' ';
     background-image: url('../Images/arrow-left-0b46a.svg');
     background-size: 10px 10px;
     height: 10px;
     width: 10px;
+}
+.p5m3__container_image{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.p5m3__items{
+    margin-left: var(--space-2);
+    margin-right: var(--space-2);
+    align-self: center;
+    width:100px;
+}
+.p5m3__image{
+    border-radius: 10px;
+    width: 100%;
 }
