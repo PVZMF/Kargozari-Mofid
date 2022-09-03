@@ -208,6 +208,25 @@
     background-color:var(--color-mofid-green-hover);
 }
 /* ***************************************************************************** */
+/* begin part4 main3  moradi */
+.p4m3{
+    padding: 0 16px;
+}
+.p4m3__container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.p4m3__image{
+    padding:15px;
+}
+.p4m3__image img{
+    width:100%;
+}
+
+/* end part4 main3  moradi */
+/* ***************************************************************************** */
+/* ***************************************************************************** */
 /* begin part5 main3   moradi */
 .p5m3{
     padding:80px 0;
