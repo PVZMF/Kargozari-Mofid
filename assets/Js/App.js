@@ -1,15 +1,17 @@
 /*begin p2m rezvan-ahmadbeigi*/
-    function p3m_Js1() {
-      var x = document.getElementById("p3m-DIV1");
-      let y=document.getElementById("p3m-h3-1");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        x.style.color="#6e7780";
-        y.style.color="#004c6a";
-      } else {
-        x.style.display = "none";
-      }
-    }
+function p3m_Js1() {
+  var x = document.getElementById("p3m-DIV1");
+  let y = document.getElementById("p3m-h3-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    x.style.color = "#6e7780";
+    y.style.color = "#004c6a";
+  } else {
+    x.style.display = "none";
+  }
+}
+
+
 
     function p3m_Js2() {
         var x = document.getElementById("p3m-DIV2");
@@ -35,19 +37,21 @@
         }
       }
 
-      function p3m_Js4() {
-        var x = document.getElementById("p3m-DIV4");
-        let y=document.getElementById("p3m-h3-4");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-          x.style.color="#6e7780";
-          y.style.color="#004c6a";
-        } else {
-          x.style.display = "none";
-        }
-      }
+
+function p3m_Js4() {
+  var x = document.getElementById("p3m-DIV4");
+  let y = document.getElementById("p3m-h3-4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    x.style.color = "#6e7780";
+    y.style.color = "#004c6a";
+  } else {
+    x.style.display = "none";
+  }
+}
 
 /*end p2m rezvan-ahmadbeigi*/
+
 
 /*start p6m rezvan-ahmadbeigi*/
 /***************************************************** */
@@ -242,3 +246,4 @@ for (let i = 0; i < btns1.length; i++) {
   });
 }
 /*end p8m2 rezvan-ahmadbeigi*/
+
