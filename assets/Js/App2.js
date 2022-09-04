@@ -117,3 +117,43 @@ this.className +=" active";
 }
 /*end p8m2 rezvan-ahmadbeigi*/
 // ****************************************************************************************************************** //
+
+// ****************************************************************************************************************** //
+/*Begin p5_page2 Moghaddamfa*/
+document.querySelectorAll(".p5m2__logolist").forEach(function (elem, i){
+    elem.style.transition = `all 1000ms cubic-bezier(.68,-0.55,.27,1.55) ${i*1000}ms`;
+});
+
+setTimeout(
+    ()=>document.querySelectorAll(".p5m2__logolist").forEach(elem => elem.style.backgroundColor = "var(--color-mofid-green)"),1)
+    
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+// begin p2m1 ali foruz
+$("#blue").click(function () {
+  $("#red").show();
+  $("#firoz").hide();
+});
+$("#green").click(function () {
+  $("#red").hide();
+  $("#firoz").show();
+});
+/////////////////////////////////////
+// begin p4m1 ali foruz
+$("#pish_cl").click(function () {
+  $("#pish_ch").show();
+  $("#mom_ch").hide();
+});
+$("#mom_cl").click(function () {
+  $("#pish_ch").hide();
+  $("#mom_ch").show();
+});
+let val = document.getElementById("swich");
+let show_value1 = document.getElementById("num1");
+let show_value2 = document.getElementById("num2");
+let show_value3 = document.getElementById("num3");
+function change(){
+  show_value1.innerHTML = val.value;
+  show_value2.innerHTML = val.value;
+  show_value3.innerHTML = val.value;
+  console.log(val.value)
+}
