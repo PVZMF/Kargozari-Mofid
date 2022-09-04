@@ -1,6 +1,6 @@
 /*start p6m3 rezvan-ahmadbeigi*/
 
-function saturday1(){
+function saturday2(){
 let x=document.getElementById("p6m3-part1");
 let y=document.getElementById("p6m3-part2");
 let z=document.getElementById("p6m3-part3");
@@ -12,7 +12,7 @@ z.style.display="none";
 h.style.display="none";
 }
 
-function sunday1(){
+function sunday2(){
 let x=document.getElementById("p6m3-part1");
 let y=document.getElementById("p6m3-part2");
 let z=document.getElementById("p6m3-part3");
@@ -25,7 +25,7 @@ h.style.display="none";
 
 }
 
-function monday1(){
+function monday2(){
 let x=document.getElementById("p6m3-part1");
 let y=document.getElementById("p6m3-part2");
 let z=document.getElementById("p6m3-part3");
@@ -37,7 +37,7 @@ z.style.display="block";
 h.style.display="none";
 }
 
-function tuesday1(){
+function tuesday2(){
 let x=document.getElementById("p6m3-part1");
 let y=document.getElementById("p6m3-part2");
 let z=document.getElementById("p6m3-part3");
@@ -48,7 +48,7 @@ y.style.display="none";
 z.style.display="none";
 h.style.display="block";
 }
-function wednesday1(){
+function wednesday2(){
 let x=document.getElementById("p6m3-part1");
 let y=document.getElementById("p6m3-part2");
 let z=document.getElementById("p6m3-part3");
