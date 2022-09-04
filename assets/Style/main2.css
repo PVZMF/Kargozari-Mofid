@@ -1095,14 +1095,39 @@
 
 /***********************************************************************************************************/
 /*start p6m2 Moghaddamfar*/
+.p6m2{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.p6m2__title{
+  font-size: var(--size-text-18);
+  margin-bottom: 80px;
+}
+
+.p6m2__allCart{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  overflow: scroll;
+  width: 100%;
+}
 .p6m2__cart{
+  position: relative;
+  width: 340px;
+  height: 400px;
+  margin: 0 24px;
+}
+.p6m2__boxshadow{
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 340px;
-  margin: 0 24px;
+  width: 100%;
+  position: relative;
   box-shadow: var(--shadow-small-center);
+  margin-top: 50px;
 }
 .p6m2__cover{
   display: flex;
@@ -1134,6 +1159,7 @@
 .p6m2__image img{
   z-index: 1;
   width: 100%;
+  opacity: 50%;
   border-radius: var(--radius-small) var(--radius-small) 0 0;
 }
 .p6m2__shadow{
@@ -1155,19 +1181,46 @@
   flex-direction: row;
   justify-content: space-around;
   align-items: center;
+  margin-bottom: 20px;
+}
+.p6m2__dash{
+  content: "";
+  width:80%;
+  height: 1px;
+  margin: auto;
+  background-color: var(--color-text-lighter);
 }
 .p6m2__profit{
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  margin: 20px 20px 50px 20px;
 }
-.p6m2__title{
+.p6m2__titlecart{
   font-size: var(--size-text-12);
   color: var(--color-text-darker);
+  margin: 20px 10px;
 }
 .p6m2__totalInvest{
   display: flex;
   flex-direction: column;
+  width: 30%;
+}
+
+.p6m2__price{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.p6m2__price:nth-child(1){
+  width: 50%;
+}
+.p6m2__price strong:nth-child(1){
+  margin-left:20px;
+  font-size: var(--size-text-14);
+}
+.p6m2__price strong:nth-child(2){
+  font-size: var(--size-text-12);
 }
 .p6m2__profit__date{
   display: flex;
@@ -1176,10 +1229,33 @@
 .p6m2__typeInvest{
   display: flex;
   flex-direction: column;
+  align-items: center;
 }
-.p6m2__typeInvest:nth-child(1){
+.p6m2__typeInvest span:nth-child(1){
   font-size: var(--size-text-14);
   font-weight: bold;
+  /* margin-bottom: 5px; */
+}
+
+.p6m2__fontgray{
+  font-size: var(--size-text-12);
+  color:var(--color-text-lighter);
+}
+.p6m2__fontgreen{
+  font-size: var(--size-text-12);
+  color:var(--color-mofid-green);
+}
+
+.p6m2__btnMofidInvestment{
+  background-color: var(--color-mofid-green);
+  border-radius: var(--radius-small);
+  padding: 10px;
+  margin: 40px;
+}
+.p6m2__btnMofidInvestment a{
+  color: var(--color-white);
+  font-size: var(--size-text-10);
+  font-weight: 800;
 }
 /*end p6m2 Moghaddamfar*/
 /***********************************************************************************************************/
