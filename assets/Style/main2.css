@@ -158,6 +158,7 @@
   /* Begin_Header Moghaddamfar */
   .header{
     width: 100%;
+    margin-bottom: 30px;
   }
   
   .header__top{
@@ -484,6 +485,61 @@
   }
   
 /* End_Header Moghaddamfar */
+/***********************************************************************************************************/
+
+
+/***********************************************************************************************************/
+/* ‌Begin_Header2 Moghaddamfar */
+  .header2{
+    display: flex;
+    position: sticky;
+    top:0;
+    justify-content: center;
+    background-color: var(--color-gray-2);
+    z-index: 100;
+  }
+  .header2__container{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    max-width: 1024px;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 30px;
+  }
+  .header2__text span:nth-child(1){
+    color:var(--color-mofid-blue);
+    font-size: var(--size-text-14);
+    font-weight: 500;
+  }
+  .header2__text span:nth-child(2){
+    color:var(--color-mofid-green);
+    font-size: var(--size-text-14);
+    font-weight: 500;
+  }
+  .header2_buttons{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* width: 100%; */
+  }
+  .header2__btn__investfund a{
+    color:var(--color-mofid-blue);
+    font-weight: 500;
+    font-size: var(--size-text-12);
+  }
+  .header2__btn__counceil{
+    background-color: var(--color-mofid-blue);
+    border-radius: var(--radius-small);
+    margin-right: 10px;
+    padding: 10px;
+  }
+  .header2__btn__counceil a{
+    color:var(--color-white);
+    font-weight: 500;
+    font-size: var(--size-text-12);
+  }
+/* End_Header2  Moghaddamfar */
 /***********************************************************************************************************/
 
 
