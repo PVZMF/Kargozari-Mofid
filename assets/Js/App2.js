@@ -119,14 +119,49 @@ this.className +=" active";
 // ****************************************************************************************************************** //
 
 // ****************************************************************************************************************** //
-/*Begin p5_page2 Moghaddamfa*/
+/*Begin p5_page2 Moghaddamfar*/
 document.querySelectorAll(".p5m2__logolist").forEach(function (elem, i){
     elem.style.transition = `all 1000ms cubic-bezier(.68,-0.55,.27,1.55) ${i*1000}ms`;
 });
 
 setTimeout(
     ()=>document.querySelectorAll(".p5m2__logolist").forEach(elem => elem.style.backgroundColor = "var(--color-mofid-green)"),1)
-    
+/*End p5_page2 Moghaddamfar*/
+// ****************************************************************************************************************** //
+  
+// ****************************************************************************************************************** //
+/*Begin p6_page2 Moghaddamfar*/
+let allcart = document.querySelector(".p6m2__allCart");
+function makecart(srclogo,color,type,total,month,year,years){
+  let cart = document.querySelector(".p6m2__cart");
+  let new_cart = cart.cloneNode(true);
+  allcart.appendChild(new_cart);
+  document.querySelectorAll(".p6m2__logo")[0].src = srclogo;
+  document.querySelectorAll(".p6m2__shadow")[0].style.background = `linear-gradient(to bottom, var(${color}), rgba(0, 0, 0, 0))`;
+  document.querySelectorAll(".p6m2_jvtypeInvect")[0].innerHTML = type;
+  document.querySelectorAll(".p6m2__jvprice")[0].innerHTML = total;
+  document.querySelectorAll(".p6m2__fontgreen")[0].innerHTML = month;
+  document.querySelectorAll(".p6m2__fontgreen")[1].innerHTML = year;
+  document.querySelectorAll(".p6m2__fontgreen")[2].innerHTML = years;
+}
+let src = "https://next.emofid.com/wp-content/themes/emofid/assets/images/funds/mofid/pishtaz.svg";
+let color = ["--color-mofid-blue","--color-mofid-green"];
+let type = "وشمام";
+let total = "124";
+let month = "1988%";
+let year = "۴11.۲%";
+let years = "۲۱11۴۸.۳%";
+let cart = document.querySelector(".p6m2__cart");
+let new_cart = cart.cloneNode(true);
+makecart(src, color[0], type, total, month, year, years);
+makecart(src, color[1], type, total, month, year, years);
+makecart(src, color[1], type, total, month, year, years);
+makecart(src, color[1], type, total, month, year, years);
+makecart(src, color[1], type, total, month, year, years);
+makecart(src, color[1], type, total, month, year, years);
+/*End p5_page2 Moghaddamfar*/
+// ****************************************************************************************************************** //
+
 ////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 // begin p2m1 ali foruz
 $("#blue").click(function () {
@@ -157,3 +192,5 @@ function change(){
   show_value3.innerHTML = val.value;
   console.log(val.value)
 }
+
+//

@@ -10,6 +10,7 @@ function p3m_Js1() {
     x.style.display = "none";
   }
 }
+
     function p3m_Js2() {
         var x = document.getElementById("p3m-DIV2");
         let y=document.getElementById("p3m-h3-2");
