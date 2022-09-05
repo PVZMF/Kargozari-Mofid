@@ -839,6 +839,54 @@ a{text-decoration: none;}
   color:var(--color-text-darker);
   line-height: 30px;
 }
+@media only screen and (min-width: 575px){
+  .footer{
+    padding-top:50px;
+  }
+
+  .footer__main_page{
+  padding:0 160px 0 180px;
+}
+
+  .footer__container_logos{
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content:center;
+  }
+
+  .footer__logos{
+    width:33.33%;
+  }
+
+  .footer__support{
+    flex-direction: row;
+    justify-content: space-between;
+    padding:20px 40px 20px 100px;
+  }
+
+  .footer__menu{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:0 160px 50px 180px;
+  }
+
+  .footer__sub_menu__item{
+    display:flex;
+    flex-direction: column;
+  }
+
+  .footer__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: baseline;
+  }
+
+  .footer__news{
+    justify-content: space-between;
+  }
+}
 /* end footer moradi */
  /***********************************************************************************************************/
  
