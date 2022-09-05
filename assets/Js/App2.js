@@ -106,12 +106,12 @@ z.style.display="none";
 h.style.display="none";
 H.style.display="block";
 }
-const header1 = document.getElementById("p8m2-days");
-const btns1 = header1.getElementsByClassName("p8m2-Days");
-for (let i = 0; i < btns1.length; i++) {
-btns1[i].addEventListener("click", function(){
-const current1 = document.getElementsByClassName("active");
-current1[0].className = current1[0].className.replace(" active","");
+const header = document.getElementById("p8m2-days");
+const btns = header.getElementsByClassName("p8m2-Days");
+for (let i = 0; i < btns.length; i++) {
+btns[i].addEventListener("click", function(){
+const current = document.getElementsByClassName("active");
+current[0].className = current[0].className.replace(" active","");
 this.className +=" active";
 });
 }

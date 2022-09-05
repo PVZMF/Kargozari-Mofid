@@ -1092,8 +1092,6 @@
 
 /*end p5m2 Moghaddamfar*/
 /***********************************************************************************************************/
-
-/***********************************************************************************************************/
 /*start p6m2 Moghaddamfar*/
 .p6m2{
   display: flex;
@@ -1259,8 +1257,46 @@
 }
 /*end p6m2 Moghaddamfar*/
 /***********************************************************************************************************/
+/*start p7m2 rezvan-ahmadbeigi*/
+.p7m2{
+  display:flex;
+  flex-direction:column;
+  background-color:var(--color-mofid-green-outline-hover);
+  padding:70px 10px;
+  align-items:center;
+  gap:60px;
+}
+.p7m2-textpic{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:60px;
+}
 
-
+.p7m2-text{
+  display:flex;
+  flex-direction:column;
+  gap:30px;
+  align-items:center;
+  color: var(--color-text-medium);
+  font-size: var(--size-text-16);
+  line-height:25px;
+}
+.p7m2-btn{
+  padding: 7px 23px;
+  background-color:var(--color-mofid-blue);
+  border-radius: var(--radius-small);
+  transition: var(--transition-fast);
+  border:1px solid var(--button-theme-color);
+  color:white;
+  width:210px;
+  height:40px;
+  font-size: var(--size-text-14);
+}
+.p7m2-btn:hover{
+  background-color: var(--color-mofid-blue-hover);
+}
+/*end p7m2 rezvan-ahmadbeigi*/
 
 /***********************************************************************************************************/
 /*start p8m2 rezvan-ahmadbeigi*/
@@ -1382,8 +1418,6 @@
     }
    /*end p8m2 rezvan-ahmadbeigi*/
 /***********************************************************************************************************/
-
-/* ******************************************************************************************************* */
 /* bigin part9 main2  moradi */
 .p9m2__container{
   padding:32px;
@@ -1473,7 +1507,6 @@
 /* end part9 main2  moradi*/
 /* ******************************************************************************************************* */
 
-/***********************************************************************************************************/
 /* begin footer moradi */
 .footer__support{
   display:flex;

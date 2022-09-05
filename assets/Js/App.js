@@ -35,7 +35,6 @@ function p3m_Js1() {
         }
       }
 
-
 function p3m_Js4() {
   var x = document.getElementById("p3m-DIV4");
   let y = document.getElementById("p3m-h3-4");
@@ -50,7 +49,6 @@ function p3m_Js4() {
 
 /*end p2m rezvan-ahmadbeigi*/
 
-
 /*start p6m rezvan-ahmadbeigi*/
 /***************************************************** */
 
@@ -59,11 +57,12 @@ function saturday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="block";
   y.style.display="none";
   z.style.display="none";
   h.style.display="none";
+  f.style.display="none";
 }
 
 function sunday(){
@@ -71,11 +70,12 @@ function sunday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="block";
   z.style.display="none";
   h.style.display="none";
+  f.style.display="none";
  
 }
 
@@ -84,11 +84,12 @@ function monday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="block";
   h.style.display="none";
+  f.style.display="none";
 }
 
 function tuesday(){
@@ -96,23 +97,24 @@ function tuesday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="block";
+  f.style.display="none";
 }
 function wednesday(){
   let x=document.getElementById("p6m-part1");
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="none";
-  H.style.display="block";
+  f.style.display="block";
 }
 
 const header = document.getElementById("p6m-days");
