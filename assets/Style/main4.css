@@ -609,7 +609,15 @@
 }
 .p4m4__opt{
   position: relative;
+  display: flex;
+  flex-wrap: nowrap;
+  flex-direction: column;
   margin-bottom: 20px;
+}
+.p4m4__opt__item{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
 }
 .p4m4__opt__item__btn{
   background: none;
@@ -627,8 +635,7 @@
   color:var(--color-mofid-green);
 }
 
-.p4m5__bottomBorder{
-  position: absolute;
+.p4m4__bottomBorder{
   content: "";
   width: 562px;
   height: 2px;
