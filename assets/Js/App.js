@@ -242,3 +242,26 @@ for (let i = 0; i < btns1.length; i++) {
   });
 }
 /*end p8m2 rezvan-ahmadbeigi*/
+// begin p8m  moradi/
+document.querySelector(".p8m__btn_bourse").addEventListener("click",showBorseView());
+document.querySelector(".p8m__btn_pellekan").addEventListener("click",showPelekan());
+
+function showBorseView(){
+  document.querySelector(".p8m__btn_bourse").style.color="#00A796";
+  document.querySelector(".p8m__btn_bourse").style.borderBottomColor="#00A796";
+  document.querySelector('.p8m__btn_pellekan').style.color="black";
+  document.querySelector('.p8m__btn_pellekan').style.borderBottomColor="#f2f3f6";
+  document.querySelector('.p8m__image_bourse_pellekan').src= "../assets/Images/bourse-view.webp";
+  document.querySelector('#p8m__bourse').style.display="block";
+  document.querySelector('#p8m__pellekan').style.display="none";
+}
+function showPelekan(){
+  document.querySelector('.p8m__btn_pellekan').style.color="#00A796";
+  document.querySelector('.p8m__btn_pellekan').style.borderBottomColor="#00A796";
+  document.querySelector(".p8m__btn_bourse").style.color="black";
+  document.querySelector(".p8m__btn_bourse").style.borderBottomColor="#f2f3f6";
+  document.querySelector('.p8m__image_bourse_pellekan').src= "../assets/Images/pellekan.webp";
+  document.querySelector('#p8m__pellekan').style.display="block";
+  document.querySelector('#p8m__bourse').style.display="none";
+}
+// end p8m  moradi/
