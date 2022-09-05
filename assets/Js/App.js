@@ -1,15 +1,15 @@
 /*begin p2m rezvan-ahmadbeigi*/
-    function p3m_Js1() {
-      var x = document.getElementById("p3m-DIV1");
-      let y=document.getElementById("p3m-h3-1");
-      if (x.style.display === "none") {
-        x.style.display = "block";
-        x.style.color="#6e7780";
-        y.style.color="#004c6a";
-      } else {
-        x.style.display = "none";
-      }
-    }
+function p3m_Js1() {
+  var x = document.getElementById("p3m-DIV1");
+  let y = document.getElementById("p3m-h3-1");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    x.style.color = "#6e7780";
+    y.style.color = "#004c6a";
+  } else {
+    x.style.display = "none";
+  }
+}
 
     function p3m_Js2() {
         var x = document.getElementById("p3m-DIV2");
@@ -35,17 +35,17 @@
         }
       }
 
-      function p3m_Js4() {
-        var x = document.getElementById("p3m-DIV4");
-        let y=document.getElementById("p3m-h3-4");
-        if (x.style.display === "none") {
-          x.style.display = "block";
-          x.style.color="#6e7780";
-          y.style.color="#004c6a";
-        } else {
-          x.style.display = "none";
-        }
-      }
+function p3m_Js4() {
+  var x = document.getElementById("p3m-DIV4");
+  let y = document.getElementById("p3m-h3-4");
+  if (x.style.display === "none") {
+    x.style.display = "block";
+    x.style.color = "#6e7780";
+    y.style.color = "#004c6a";
+  } else {
+    x.style.display = "none";
+  }
+}
 
 /*end p2m rezvan-ahmadbeigi*/
 
@@ -57,11 +57,12 @@ function saturday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="block";
   y.style.display="none";
   z.style.display="none";
   h.style.display="none";
+  f.style.display="none";
 }
 
 function sunday(){
@@ -69,11 +70,12 @@ function sunday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="block";
   z.style.display="none";
   h.style.display="none";
+  f.style.display="none";
  
 }
 
@@ -82,11 +84,12 @@ function monday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="block";
   h.style.display="none";
+  f.style.display="none";
 }
 
 function tuesday(){
@@ -94,23 +97,24 @@ function tuesday(){
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="block";
+  f.style.display="none";
 }
 function wednesday(){
   let x=document.getElementById("p6m-part1");
   let y=document.getElementById("p6m-part2");
   let z=document.getElementById("p6m-part3");
   let h=document.getElementById("p6m-part4");
-  let H=document.getElementById("p6m-part5");
+  let f=document.getElementById("p6m-part5");
   x.style.display="none";
   y.style.display="none";
   z.style.display="none";
   h.style.display="none";
-  H.style.display="block";
+  f.style.display="block";
 }
 
 const header = document.getElementById("p6m-days");
@@ -166,7 +170,6 @@ function showlist(item){
 }
 
 /*End Header_page1 Moghaddamfa*/
-// ****************************************************************************************************************** //
 
 /********************page2********************/
 /*start p8m2 rezvan-ahmadbeigi*/
@@ -242,6 +245,8 @@ for (let i = 0; i < btns1.length; i++) {
   });
 }
 /*end p8m2 rezvan-ahmadbeigi*/
+
+// ****************************************************************************************************************** //
 // begin p8m  moradi/
 document.querySelector(".p8m__btn_bourse").addEventListener("click",showBorseView());
 document.querySelector(".p8m__btn_pellekan").addEventListener("click",showPelekan());
@@ -265,3 +270,6 @@ function showPelekan(){
   document.querySelector('#p8m__bourse').style.display="none";
 }
 // end p8m  moradi/
+
+// ****************************************************************************************************************** //
+
