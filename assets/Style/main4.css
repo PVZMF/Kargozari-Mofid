@@ -598,7 +598,84 @@
 .p4m4__stylefont{
   color:var(--color-text-dark);
   font-weight: 500;
-font-size: var(--size-text-12);
+  font-size: var(--size-text-12);
+}
+.p4m4__kargozariMofid__container{
+  display: flex;
+  flex-direction: row;
+  position: relative;
+}
+.p4m4__kargozariMofid__listmanagers{
+  display: flex;
+  position: relative;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: nowrap;
+  overflow:scroll;
+  width: 100%;
+}
+.p4m4__kargozariMofid__oneperson{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: relative;
+  min-width: 150px;
+  height: 200px;
+  margin: 0;
+}
+
+.p4m4__kargozariMofid__image{
+  width: 130px;
+  height: 130px;
+  border-radius: var(--radius-small);
+}
+.p4m4__kargozariMofid__describtion{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.p4m4__kargozarimofid__name{
+  font-size: var(--size-text-14);
+  color:var(--color-text-darker);
+  font-weight: 500;
+  margin: 5px;
+}
+.p4m4__kargozariMofid__job{
+  font-size: var(--size-text-12);
+  color: var(--color-text-light);
+  font-weight: 500;
+}
+.p4m4__kargozariMofid__shadow-left{
+  position: absolute;
+  height: 100%;
+  width: 140px;
+  left: 0;
+  background: linear-gradient(to right, #ffffff 0%, rgba(0, 76, 106, 0) 100%);
+  z-index: 2;
+}
+.p4m4__kargozariMofid__shadow-right{
+  position: absolute;
+  height: 100%;
+  width: 140px;
+  right: 0;
+  background: linear-gradient(to left, #ffffff 0%, rgba(0, 76, 106, 0) 100%);
+  z-index: 2;
+}
+.p4m4_hideelement{
+  display: none  !important;
+}
+
+.p4m4__opt__EntekhabMofid{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+.p4m4__opt__pardazeah{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
 }
   /***********************************************************************************************************/
 /* begin footer moradi */
