@@ -461,3 +461,222 @@
 }
 /* end part5 main2  moradi  */
 /* *************************************************************************** */ 
+/* *************************************************************************** */
+/* begin footer moradi */
+.footer__support{
+    display:flex;
+    flex-direction: column;
+    width:100%;
+    background-color: var(--color-gray-light);
+    padding-top: var(--space-4);
+    padding-bottom: var(--space-4);
+  }
+  
+  .footer__support> div> p{
+    font-family: "YekanBakh";
+    text-align: center;
+    color: var(--color-mofid-blue);
+  }
+  
+  .footer__service{
+    font-size:vqr(--size-text-16);
+    margin-bottom: var(--space-2);
+    font-weight: bold;
+  }
+  
+  .footer__time{
+    margin-bottom: var(--space-2);
+    font-weight: bold;
+    font-size: 13.33px;
+  }
+  
+  .footer__connect{
+    margin-top: var(--space-3);
+  }
+  
+  .footer__phone{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+  
+  .footer__phone_number{
+    font-family: "YekanBakh";
+    font-weight: bold;
+    color:var(--color-mofid-blue);
+    font-size: var(--size-text-14);
+  }
+  
+  .footer__site{
+    direction: ltr;
+    text-align: center;
+    font-weight: bold;
+    font-size: var(--size-text-14);
+  }
+  
+  li{list-style-type: none;}
+  
+  a{text-decoration: none;}
+  
+  .footer__menu{
+    margin:0 16px ;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #c7d0d9;
+  }
+  
+  .footer__sub_menu > p{
+    font-family: "YekanBakh";
+    font-weight: bold;
+    font-size: var(--size-text-16);
+    color: var(--color-text-dark);
+    margin-bottom: var(--space-4);
+    padding-top: var(--space-6);
+  }
+  
+  .footer__sub_menu__item{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap:15px;
+  }
+  
+  .footer__sub_menu__item  a{
+    font-family:"yekanBakh";
+    font-size: var(--size-text-14);
+    font-weight:400;
+    color:var(--color-mofid-blue);
+  }
+  
+  .footer__footer{
+    padding:0 16px;
+  }
+  
+  .footer__container{
+    display:flex;
+    flex-direction: column;
+    padding:20px 0;
+    border-bottom: 1px solid #c7d0d9;
+  }
+  
+  .footer__item{
+    display:flex;
+    justify-content: center;
+    gap:15px;
+    padding-bottom: var(--space-6);
+    margin-top: var(--space-3);
+  }
+  
+  .footer__icon{
+    width:18px;
+    height:18px;
+  }
+  
+  .footer__news p{
+    font-family: "YekanBakh";
+    font-size: var(--size-text-14) ;
+    font-weight: 600;
+    color: var(--color-mofid-blue);
+    line-height:var(--space-5);
+  }
+  
+  .footer__form{
+    display:flex;
+    justify-content: flex-end;
+  }
+  
+  .footer__form input{
+    padding:12px 22px;
+    font-family: "YekanBakh";
+    font-size: 14px;
+    font-weight: bold;
+    border-radius: 0 8px 8px 0;
+    background-color: var(--color-gray-light);
+    border: 1px solid #dce1e7;
+    border-left: none;
+  }
+  
+  .footer__btn{
+    padding:0 28px;
+    color:var(--color-white);
+    background-color: var(--color-mofid-green);
+    font-family: "YekanBakh";
+    border:none;
+    border-radius: 8px 0 0 8px;
+    font-weight: 600px;
+  }
+  
+  .footer__copyright{
+    display: flex;
+    flex-direction: column;
+    padding:32px 0;
+    text-align: center;
+  }
+  
+  .footer__copyright  div{
+    display:flex;
+    justify-content:center;
+    align-items: center;
+    align-self: center;
+    background-color: var(--color-duo);
+    border-radius: 20px;
+    width:90px;
+    height: 30px;
+    align-items:baseline;
+  }
+  
+  .footer__text{
+    font-family: "YekanBakh";
+    font-size:var(--size-text-14);
+    font-weight: 600;
+    color:var(--color-text-darker);
+    line-height: 30px;
+  }
+  @media only screen and (min-width: 575px){
+    .footer{
+      padding-top:50px;
+    }
+  
+    .footer__main_page{
+    padding:0 160px 0 180px;
+  }
+  
+    .footer__container_logos{
+      display: flex;
+      flex-wrap: nowrap;
+      justify-content:center;
+    }
+  
+    .footer__logos{
+      width:33.33%;
+    }
+  
+    .footer__support{
+      flex-direction: row;
+      justify-content: space-between;
+      padding:20px 40px 20px 100px;
+    }
+  
+    .footer__menu{
+      display:flex;
+      flex-direction: row;
+      justify-content: space-between;
+      padding:0 160px 50px 180px;
+    }
+  
+    .footer__sub_menu__item{
+      display:flex;
+      flex-direction: column;
+    }
+  
+    .footer__container{
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      align-items: baseline;
+    }
+  
+    .footer__news{
+      justify-content: space-between;
+    }
+  }
+  /* end footer moradi */
+  /* ************************************************************************************** */
