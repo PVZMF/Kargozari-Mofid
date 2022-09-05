@@ -244,19 +244,19 @@
     padding: var(--space-3);
     margin-bottom: var(--space-5);
 }
-.p3m3__img_hami , .p3m3__hami{
+.p3m3__hami{
     display:block;
 }
-.p3m3__img_Karmozd , .p3m3__Karmozd{
+.p3m3__Karmozd{
     display:none;
 }
-.p3m3__img_sabad , .p3m3__sabad{
+.p3m3__sabad{
     display:none;
 }
-.p3m3__img_etebar , .p3m3__etebar{
+.p3m3__etebar{
     display:none;
 }
-.p3m3__img_pellekan , .p3m3__pellekan{
+.p3m3__pellekan{
     display:none;
 }
 .p3m3__display{
