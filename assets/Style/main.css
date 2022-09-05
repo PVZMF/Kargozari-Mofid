@@ -1718,8 +1718,19 @@ a{text-decoration: none;}
   }
   .p8m__menu_item{
     margin-left: 20px;
-
-
+  }
+  .p8m__text_code{
+    padding:0 30%;
+  }
+  .p8m__btn_code_bourse{
+    flex-direction: row;
+    justify-content: center;
+  }
+  .p8m__btn_code:hover{
+    background-color: var(--color-mofid-green-hover);
+  }
+  .p8m__btn_guide:hover{
+    background-color: var(--color-gray-light);
   }
 }
 /* end part8 main  moradi */
