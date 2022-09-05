@@ -635,6 +635,7 @@
   text-align: center;
   max-width:100%;
   padding:80px 0;
+  margin-top: var(--space-7);
 }
 
 .footer__main_page > h1{
