@@ -1369,8 +1369,9 @@ a{text-decoration: none;}
   padding:0 16px;
 }
 
-.p2m__positive-point{
-  width:100%;
+.p2m__positive_point{
+  /* width:100%; */
+  width:50%;
 }
 .p2m__container__items{
   display:flex;
@@ -1401,11 +1402,12 @@ a{text-decoration: none;}
   font-size: var(--size-text-14 );
 }
 
-.p2m__last-news{
+.p2m__last_news{
   display:flex;
   flex-direction: column;
   justify-content: flex-start;
-  width:100%;
+  /* width:100%; */
+  width: 50%;
   padding-bottom: 60px;
 }
 
@@ -1462,6 +1464,27 @@ a{text-decoration: none;}
   width: 10px;
   height: 10px;
   margin-right: 5px;
+}
+@media only screen and (min-width: 575px){
+  .p2m0{
+    display: flex;
+    flex-direction: row;
+    flex-flow: nowrap;
+    justify-content:space-evenly;
+    margin: var(--space-7) 0;
+  }
+  .p2m__positive-point{
+    width:40%;
+  }
+  .p2m__item{
+    width:32%;
+  }
+  .p2m__last_news{
+    width: 40%;
+  }
+  .p2m__link{
+    justify-content: flex-start;
+  }
 }
 /* end part2 main  moradi */
 /***********************************************************************************************************/
