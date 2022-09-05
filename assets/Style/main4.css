@@ -500,6 +500,61 @@
   /* End_Header Moghaddamfar */
   /***********************************************************************************************************/
 
+    /***********************************************************************************************************/
+  /* Begin_p1m4 Moghaddamfar */
+  .p1m4{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 60px;
+    width: 100%;
+  }
+  .p1m4_text{
+    width: 40%;
+    min-width: 300px;
+    order: 1;
+    margin-left: 40px;
+  }
+  .p1m4__videopart{
+    order: 2;
+    width: 50%;
+  }
+  .p1m4_text h2{
+    margin-bottom: 20px;
+  }
+  .p1m4_text ul li{
+    list-style-type:square;
+    margin: 20px;
+  } 
+  .p1m4__playvideo{
+    width: 40%;
+    min-width: 300px;
+    position: relative;
+    margin-bottom: 40px;
+  }
+  /* .p1m4__btnplaypause{
+    background-image:url(http://png-4.findicons.com/files/icons/2315/default_icon/256/media_play_pause_resume.png);
+    background-repeat:no-repeat;
+    width:50%;
+    height:50%;
+    position:absolute;
+    left:0%;
+    right:0%;
+    top:0%;
+    bottom:0%;
+    margin:auto;
+    background-size:contain;
+    background-position: center;
+  } */
+
+  /* End_p1m4 Moghaddamfar */
+  /***********************************************************************************************************/
+
+
+  /***********************************************************************************************************/
+  /* Begin_p4m4 Moghaddamfar */
+
 .p4m4__container{
     max-width: 720px;
     padding-right: 15px;
@@ -677,6 +732,9 @@
   align-items: center;
   margin: 20px;
 }
+/* End_p4m4 Moghaddamfar */
+  /***********************************************************************************************************/
+
   /***********************************************************************************************************/
 /* begin footer moradi */
 .footer__support{
