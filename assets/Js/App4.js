@@ -42,3 +42,14 @@ if(showitem.classList.contains('header_hideElement')){
 
 /*End Header_page1 Moghaddamfa*/
 // ****************************************************************************************************************** //
+
+
+// ****************************************************************************************************************** //
+/*Begin Header_page1 Moghaddamfa*/
+
+document.querySelectorAll(".p4m4__opt__item__btn").forEach((element,i) => element.addEventListener("click", ()=> aboutus(i)));
+
+function aboutus(item){
+  document.querySelectorAll(".p4m4__opt__item__btn").forEach((element,i)=> i==item?element.classList.add("p4m4__opt__item__btn-active"):element.classList.remove("p4m4__opt__item__btn-active"));
+
+}

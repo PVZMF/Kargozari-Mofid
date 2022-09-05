@@ -1,5 +1,5 @@
 @font-face {
-    font-family: "YekanBakh";
+    font-family:"YekanBakh";
     src: url("../Fonts/BazarFont/YekanBakh-Regular.woff2") format("woff2");
     font-weight: 400;
     font-style: normal;
@@ -7,7 +7,7 @@
   }
   
   @font-face {
-    font-family: "YekanBakh";
+    font-family:"YekanBakh";
     src: url("../Fonts/BazarFont/YekanBakh-Medium.woff2") format("woff2");
     font-weight: 500;
     font-style: normal;
@@ -507,21 +507,99 @@
     margin-right: auto;
     margin-left: auto;
 }
+.p4m4__title__content{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
 .p4m4__title{
     display: flex;
     flex-direction: row;
-    align-items: center;
 }
 .p4m4__title__pic{
+    margin-left: 40px;
     width: 25%;
 }
 .p4m4__title__pic img{
-    width: 100%;
-    border-radius: 50%;
+  width: 100%;
+  border-radius: var(--radius-small);
+}
+.p4m4__title__content__header{
+    font-size: var(--size-text-20);
+    font-weight: 500;
+    margin-bottom: 20px;
 }
 
-  
+.p4m4__openqoute::after{
+    display: block;
+    font-family:"YekanBakh";
+    /* quotes: "\201C""\2018""\2019"; */
+    content: "\201D";
+    font-size:50px;
+    line-height: 5px;
+    margin-top: 12px;
+    color: var(--color-gray);
+    font-weight: 500;
+}
 
+.p4m4__closeqoute::after{
+    display: block;
+    font-family:"YekanBakh";
+    /* quotes: "\201C""\2018""\2019"; */
+    content: "\201C";
+    font-size:50px;
+    margin-right: 355px;
+    color: var(--color-gray);
+    font-weight: 500;
+}
+.p4m4__opt{
+  position: relative;
+  margin-bottom: 20px;
+}
+.p4m4__opt__item__btn{
+  background: none;
+  border: 0;
+  border-bottom: 2px solid var(--color-gray);
+  padding: 0 20px 10px 20px;
+  font-size: var(--size-text-12);
+  color: var(--color-mofid-blue);
+  z-index: 2;
+  font-weight: 500;
+}
+.p4m4__opt__item__btn-active{
+  /* background: none; */
+  border-bottom: 2px solid var(--color-mofid-green);
+  color:var(--color-mofid-green);
+}
+
+.p4m5__bottomBorder{
+  position: absolute;
+  content: "";
+  width: 562px;
+  height: 2px;
+  background-color: var(--color-gray);
+  top: 27px;
+  z-index: -1;
+}
+
+.p4m4__opt__kargozariMofid__logo{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 20px;
+}
+.p4m4__opt__kargozariMofid__data{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.p4m4__stylefont{
+  color:var(--color-text-dark);
+  font-weight: 500;
+font-size: var(--size-text-12);
+}
   /***********************************************************************************************************/
 /* begin footer moradi */
 .footer__support{
@@ -694,7 +772,7 @@
   /* end footer moradi */
   /***********************************************************************************************************/
 
-  
+
 /* <!-- ******************************************************************************************************** --> */
 /* <!-- ******************************************************************************************************** --> */
 /* <!-- ********************************************* Desktop Mode ********************************************* --> */

@@ -144,8 +144,8 @@ function makecart(srclogo,color,type,total,month,year,years){
   document.querySelectorAll(".p6m2__fontgreen")[1].innerHTML = year;
   document.querySelectorAll(".p6m2__fontgreen")[2].innerHTML = years;
 }
-let src = "https://next.emofid.com/wp-content/themes/emofid/assets/images/funds/mofid/pishtaz.svg";
-let color = ["--color-mofid-blue","--color-mofid-green"];
+let src = ["..//assets/Images/hami.svg","..//assets/Images/nami.svg","..//assets/Images/pishro.svg","..//assets/Images/momtaz.svg","..//assets/Images/omid.svg"];
+let color = ["--color-hami","--color-nami","--color-pishro","--color-momtaz","--color-omid"];
 let type = "وشمام";
 let total = "124";
 let month = "1988%";
@@ -153,12 +153,9 @@ let year = "۴11.۲%";
 let years = "۲۱11۴۸.۳%";
 let cart = document.querySelector(".p6m2__cart");
 let new_cart = cart.cloneNode(true);
-makecart(src, color[0], type, total, month, year, years);
-makecart(src, color[1], type, total, month, year, years);
-makecart(src, color[1], type, total, month, year, years);
-makecart(src, color[1], type, total, month, year, years);
-makecart(src, color[1], type, total, month, year, years);
-makecart(src, color[1], type, total, month, year, years);
+for(let item=0;item<src.length;item++){
+makecart(src[item], color[item], type, total, month, year, years);
+}
 /*End p5_page2 Moghaddamfar*/
 // ****************************************************************************************************************** //
 
