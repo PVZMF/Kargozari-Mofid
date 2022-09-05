@@ -1470,8 +1470,9 @@ a{text-decoration: none;}
     display: flex;
     flex-direction: row;
     flex-flow: nowrap;
-    justify-content:space-evenly;
+    justify-content:space-between;
     margin: var(--space-7) 0;
+    padding-right: 10%;
   }
   .p2m__positive-point{
     width:40%;
