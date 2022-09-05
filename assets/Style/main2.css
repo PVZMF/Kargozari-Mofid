@@ -1115,7 +1115,7 @@
 }
 .p6m2__cart{
   position: relative;
-  width: 340px;
+  min-width: 340px;
   height: 400px;
   margin: 0 24px;
 }
