@@ -1736,7 +1736,7 @@ a{text-decoration: none;}
 }
 
 @media only screen and (min-width: 575px){
-  .p8m__text__laptop{
+  .p8m__text_laptop{
     display: flex;
     justify-content:center;
     margin-bottom: var(--space-5);
