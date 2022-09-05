@@ -555,7 +555,7 @@ body {
   padding: 0 16px;
 }
 
-.p2m__positive-point {
+.p2m__positive_point {
   width: 100%;
 }
 .p2m__container__items {
@@ -586,7 +586,7 @@ body {
   font-size: var(--size-text-14);
 }
 
-.p2m__last-news {
+.p2m__last_news {
   display: flex;
   flex-direction: column;
   justify-content: flex-start;
@@ -1523,7 +1523,7 @@ body {
 .p8m__menu_item:before {
   display: block;
   content: " ";
-  background-image: url("../images/iconmonstr-check-mark-4-24.png");
+  background-image: url("../Images/iconmonstr-check-mark-4-24.png");
   background-size: 20px 20px;
   height: 20px;
   width: 20px;
@@ -2118,4 +2118,4 @@ a {
   display:flex;
   flex-direction:column;
   width:10%;
-}
+  }
