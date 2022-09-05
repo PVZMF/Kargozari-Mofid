@@ -494,7 +494,7 @@
     display: flex;
     position: sticky;
     top:0;
-    align-items: center;
+    justify-content: center;
     background-color: var(--color-gray-2);
     z-index: 100;
   }
