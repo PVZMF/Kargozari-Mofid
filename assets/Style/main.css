@@ -1913,8 +1913,108 @@ a {
 }
  /*end p6m rezvan-ahmadbeigi*/
  /***********************************************************************************************************/
+/* begin p7m moradi */
+.p7m__container{
+  padding:32px;
+  margin:0 auto;
+}
 
+.p7m__education{
+  display:flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-top: var(--space-5);
+}
+.p7m__item{
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  width:calc(100%-64px);
+  margin-bottom: 40px;
+}
+.p7m__item_header{
+  display:flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  margin-bottom: 30px;
+}
 
+.p7m__box_image{
+  display:flex;
+  justify-content: center;
+  align-content: center;
+  width:50px;
+  height:50px;
+  border-radius: 50%;
+  background-color: var(--color-gray-light);
+}
+
+.p7m__image{
+  align-self: center;
+  width:35px;
+  height:35px;
+}
+
+.p7m__text{
+  margin-right: 15px;
+}
+.p7m__item_content{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.p7m__item_content section{
+  margin-bottom:var(--space-5);
+  font-family: "YekanBakh";
+  font-size: var(--size-text-16);
+  font-weight: 500;
+  color:var(--color-text-darker);
+  text-align: center;
+  line-height: var(--size-line-height-26);
+}
+
+.p7m__arrow_icon{
+  display: flex;
+  flex-direction: row;
+}
+
+.p7m__arrow_icon a{
+  color:var(--color-mofid-blue);
+  font-size: var(--size-text-14);
+  font-family: "YekanBakh";
+  font-weight: 500;
+  margin-left: 5px;
+}
+/* support button  دکمه پشتیبانی  */
+.btn_support{
+  background-color:var(--color-mofid-blue-dark);
+  position:fixed;
+  z-index: 100;
+  bottom: 30px;
+  right:30px;
+  width:70px;
+  height: 70px;
+  border-radius: 10px;
+  border:none;
+}
+@media only screen and (min-width: 575px){
+  .p7m__item{
+    width:32%;
+    background-color: var(--color-gray-light);
+    border-radius: 10px;
+    padding:  20px;
+  }
+  .p7m__education{
+    flex-direction: row;
+    margin: var(--space-7) 0;
+  }
+  .p7m__box_image{
+    background-color: var(--color-white);
+  }
+}
+/* end p7m moradi */
 /* ******************************************************************************************************** */
 /* begin part8 main moradi */
 .p8m__header{
@@ -2046,7 +2146,7 @@ a {
 }
 
 @media only screen and (min-width: 575px){
-  .p8m__text__laptop{
+  .p8m__text_laptop{
     display: flex;
     justify-content:center;
     margin-bottom: var(--space-5);
