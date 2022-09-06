@@ -766,6 +766,7 @@ body {
 /***********************************************************************************************************/
 
 /***********************************************************************************************************/
+/* ///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 /* begin part4-5 main ali foruz */
 
 .p4-5m {
@@ -1118,6 +1119,119 @@ body {
 
 .p5m__icon-karmozd {
   background-image: url(../images/karmozd-4a8ce.svg);
+}
+@media only screen and (min-width: 576px){
+  .p4-5m {
+    padding-bottom: var(--space-7);
+}
+
+.p4m__container {
+    width: 49rem;
+}
+
+.p4m__title {
+    font-size: 100%;
+}
+
+.p4m__services {
+    font-size: var(--size-text-32);
+}
+
+.p4m__title span {
+    font-size: var(--size-text-18);
+}
+
+.p4m__boxes {
+    flex-wrap: inherit;
+}
+
+.p4m__card {
+    padding: 0 var(--space-4);
+    margin-bottom: 0;
+    width: 100%;
+}
+
+.p4m__circle {
+    width: 80px;
+    height: 80px;
+}
+
+.p5m__height {
+    display: inherit;
+}
+
+.p5m__easytrader-shots {
+    width: 768px;
+}
+
+.p5m__mobile {
+    display: none;
+}
+
+.p5m__details {
+    padding: 0;
+}
+
+.p5m__col-1 {
+    flex-basis: 33.33%;
+    max-width: 33.33%;
+    box-sizing: border-box;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.p5m__col-2 {
+    flex-basis: 66.66%;
+    max-width: 66.66%;
+    box-sizing: border-box;
+    flex: 0 0 auto;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.p5m__symbol {
+    margin-bottom: 0;
+}
+
+.p5m__p {
+    font-size: var(--size-text-16);
+    margin-bottom: var(--space-4);
+    text-align: inherit;
+}
+
+.p5m__more {
+    margin: 0;
+}
+
+.p5m__container {
+    width: 49rem;
+}
+
+.p5m__col-2-1 {
+    margin-bottom: 0;
+    flex-basis: 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+}
+
+.p5m__icon {
+    width: 80px;
+    height: 80px;
+}
+
+.p5m__text-white {
+    font-size: var(--size-text-16);
+}
+
+.p5m__col-2-2 {
+    flex-basis: 50%;
+    max-width: 50%;
+    padding-right: 0.5rem;
+    padding-left: 0.5rem;
+    margin-bottom: 0;
+}
 }
 /* //////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////// */
 
