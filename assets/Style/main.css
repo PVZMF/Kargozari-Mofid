@@ -197,7 +197,7 @@ body {
   height: 100%;
   width: 100%;
   background-color: var(--color-white);
-  overflow: scroll;
+  overflow:hidden;
   order: 3;
 }
 .header_havehidelist_hamburger{
@@ -211,8 +211,9 @@ body {
   align-items: flex-start;
   height: 800px;
   width: 100%;
+  min-width: 600px;
+  overflow:hidden;
   background-color: var(--color-white);
-  overflow: scroll;
 }
 .header__menuMobile__logo {
   display: flex;
@@ -2356,7 +2357,7 @@ a{text-decoration: none;}
   height: 100%;
   width: 70%;
   background-color: var(--color-white);
-  overflow: scroll;
+  overflow:hidden;
   order: 2;
 }
 
