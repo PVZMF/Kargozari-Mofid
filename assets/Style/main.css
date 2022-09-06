@@ -178,15 +178,17 @@ body {
   display: flex;
   align-items: center;
   font-size: var(--size-text-12);
+  flex-shrink: 50px;
 }
 
 .header__logo {
   order:1;
   margin-left: 50px;
+  flex-shrink: 50px;
 }
 
 .header__menuMobile {
-  display: block;
+  display: flex;
   width: 100%;
 }
 
@@ -200,6 +202,7 @@ body {
   overflow:hidden;
   order: 3;
 }
+
 .header_havehidelist_hamburger{
   display: block;
 }
@@ -209,11 +212,11 @@ body {
 .header__menuMobile_content-active {
   flex-direction: column;
   align-items: flex-start;
-  height: 800px;
+  height: 1300px;
   width: 100%;
-  min-width: 600px;
   overflow:hidden;
   background-color: var(--color-white);
+  order: 3;
 }
 .header__menuMobile__logo {
   display: flex;
@@ -505,7 +508,13 @@ body {
   flex-direction: row;
   border-radius: 5px;
 }
-
+#header__call{
+  margin: 0 10px;
+  color: var(--color-mofid-blue);
+}
+#header__search{
+  margin: 0 10px;
+}
 /* End_Header Moghaddamfar */
 /***********************************************************************************************************/
 /*start p1m rezvan-ahmadbeigi*/
@@ -2338,12 +2347,16 @@ a{text-decoration: none;}
 }
 /* end part8 main  moradi */
 /* ************************************************************************************************* */
-/****************************DESKTOP**********rezvan-ahmadbeigi********************************************************/
-@media only screen and (min-width:769px) {
+
 
 /* ************************************************************************************************* */
 /* Begin Header Moghaddamfar */
-
+@media only screen and (max-width:456px) {
+  #header__call,#header__search{
+    display: none;
+  }
+}
+@media only screen and (min-width:1060px) {
 .header__logo {
   display: none;
 }
@@ -2360,7 +2373,6 @@ a{text-decoration: none;}
   overflow:hidden;
   order: 2;
 }
-
 .header__menuMobile_list {
   display: flex;
   flex-direction: row;
@@ -2385,10 +2397,12 @@ a{text-decoration: none;}
 .header_havehidelist_logo{
   display: block !important;
 }
-
+}
 /* End Header Moghaddamfar */
 /* ************************************************************************************************** */
 
+/****************************DESKTOP**********rezvan-ahmadbeigi********************************************************/
+@media only screen and (min-width:769px) {
 /*p1m*/
 .p1m-img-mobile{
   display:none;

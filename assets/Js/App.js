@@ -146,6 +146,8 @@ function collapse(){
     // document.querySelector('.header__menuMobile_list').childNodes.forEach(elem => {if(elem !== '#text "\n'){elem.classList.remove("header__li-active")}});
     document.querySelector('.header__menuMobile__search').classList.add('header_hideElement');
     document.querySelector('.header__menuMobile__footer').classList.add('header_hideElement');
+    document.querySelector('#header__call').classList.remove('header_hideElement');
+    document.querySelector('#header__search').classList.remove('header_hideElement');
     document.body.style.overflowY = "auto";
   }else{
     btnHamburger.classList.add('header_btnhamburger-showmenu');
@@ -159,6 +161,8 @@ function collapse(){
     document.querySelector('.header__menuMobile_list-active').childNodes.forEach(elem => {if(elem.nodeType=="1"){elem.classList.add("header__li-active")}});
     document.querySelector('.header__menuMobile__search').classList.remove('header_hideElement');
     document.querySelector('.header__menuMobile__footer').classList.remove('header_hideElement');
+    document.querySelector('#header__call').classList.add('header_hideElement');
+    document.querySelector('#header__search').classList.add('header_hideElement');
     document.body.style.overflowY = "hidden";
   }
 }
