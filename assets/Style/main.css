@@ -163,6 +163,7 @@ body {
 .header__top {
   display: flex;
   flex-direction: row;
+  flex-wrap: wrap;
   justify-content: space-between;
   align-items: center;
   direction: rtl;
@@ -172,48 +173,40 @@ body {
   flex-shrink: 0;
 }
 
-.header__nav {
-  order: 2;
-  width: 100%;
-}
-
-.header__menu {
-  display: flex;
-  width: 100%;
-  padding: 16px 0;
+.header__login {
   order: 3;
+  display: flex;
+  align-items: center;
+  font-size: var(--size-text-12);
 }
 
-.header__menulist {
-  display: flex;
-  position: absolute;
-  overflow-y: hidden;
-  flex-direction: row;
-  justify-content: space-evenly;
-  align-items: center;
-}
-.header__navitem {
-  font-size: var(--size-text-12);
-  color: var(--color-mofid-blue);
-  font-weight: 800;
-  padding: 4px 8px;
+.header__logo {
+  order:1;
+  margin-left: 50px;
 }
 
 .header__menuMobile {
   display: block;
   width: 100%;
 }
-.header__menulist-mob {
-  display: block;
-  width: 100%;
-}
-
-.header__logo {
-  margin-left: 50px;
-}
 
 .header__menuMobile_content {
-  display: none;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  background-color: var(--color-white);
+  overflow: scroll;
+  order: 3;
+}
+.header_havehidelist_hamburger{
+  display: block;
+}
+.header_havehidelist_logo{
+  display: none !important;
+}
+.header__menuMobile_content-active {
   flex-direction: column;
   align-items: flex-start;
   height: 800px;
@@ -300,20 +293,34 @@ body {
 }
 .header__menuMobile_list {
   display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:100%;
+  font-size: var(--size-text-12);
+}
+
+.header__menuMobile_list-active {
+  display: flex;
   flex-direction: column;
   align-items: flex-start;
   width: 100%;
   font-size: var(--size-text-12);
 }
+.header_svghidelist{
+  display: none;
+}
+
 .header__menuMobile_list li {
   list-style-type: none;
-  margin: 12px;
+  margin: 8px;
   padding: 4px;
   display: flex;
   flex-direction: column;
-  width: 96%;
 }
-
+.header__li-active{
+  width: 100%;
+  padding: 16px;
+}
 .header__menuMobile_item {
   display: flex;
   flex-direction: row;
@@ -328,10 +335,37 @@ body {
   background: var(--color-light-bg);
 }
 .header_Mobilehidelist li {
-  padding: 16px;
   transition: var(--transition);
-  /*margin: 8px;*/
+  padding: 10px 2px;
 }
+
+.header_Mobilehidelist-active li{
+  padding: 16px;
+}
+
+.header__menuMobile_list .header_havehidelist1:hover .header_Mobilehidelist{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 200;
+  top: 95px;
+}
+.header__menuMobile_list .header_havehidelist2:hover .header_Mobilehidelist{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 200;
+  top: 95px;
+}
+
+.header__menuMobile_list .header_havehidelist3:hover .header_Mobilehidelist{
+  display: flex;
+  flex-direction: column;
+  position: absolute;
+  z-index: 200;
+  top: 95px;
+}
+
 .header_Mobilehidelist li:hover {
   background: var(--color-mofid-green-light);
 }
@@ -376,23 +410,10 @@ body {
 #header__shadow {
   position: absolute;
   height: 30px;
-  width: 60px;
+  width: 120px;
   left: 0;
   background: linear-gradient(to right, #fdfdfd 0%, rgba(0, 76, 106, 0) 100%);
-}
-
-.header__menulist li {
-  list-style-type: none;
-  white-space: nowrap;
-  margin-left: 24px;
-  color: var(--color-mofid-blue);
-}
-
-.header__login {
-  order: 1;
-  display: flex;
-  align-items: center;
-  font-size: var(--size-text-12);
+  top:75px;
 }
 
 .header__btngetcode,
@@ -430,9 +451,8 @@ body {
 .header_btnhamburger {
   box-sizing: border-box;
   background: transparent;
-  margin: 0 24px;
   border: 0;
-  padding: 9px 8px;
+  padding: 9px;
   z-index: 10;
 }
 .header_btnhamburger span {
@@ -476,11 +496,13 @@ body {
   color: var(--color-text-lighter);
 }
 
-.header__btnEasyTrader {
+#header__btnEasyTrader {
   background-color: #f2f5f6;
   border-radius: var(--radius-small);
   padding: 4px 8px;
   display: flex;
+  flex-direction: row;
+  border-radius: 5px;
 }
 
 /* End_Header Moghaddamfar */
@@ -2182,6 +2204,55 @@ a {
 /* ************************************************************************************************* */
 /****************************DESKTOP**********rezvan-ahmadbeigi********************************************************/
 @media only screen and (min-width:769px) {
+
+/* ************************************************************************************************* */
+/* Begin Header Moghaddamfar */
+
+.header__logo {
+  display: none;
+}
+
+.header__menuMobile_content {
+  display: flex;
+  flex-direction: row;
+  /* position: relative; */
+  flex-wrap: nowrap;
+  align-items: center;
+  height: 100%;
+  width: 70%;
+  background-color: var(--color-white);
+  overflow: scroll;
+  order: 2;
+}
+
+.header__menuMobile_list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width:auto;
+  font-size: var(--size-text-12);
+}
+.header__menuMobile_list .header_havehidelist1:hover .header_Mobilehidelist{
+  top: 65px;
+}
+.header__menuMobile_list .header_havehidelist2:hover .header_Mobilehidelist{
+  top: 65px;
+}
+
+.header__menuMobile_list .header_havehidelist3:hover .header_Mobilehidelist{
+  top: 65px;
+}
+
+.header_havehidelist_hamburger{
+  display: none !important;
+}
+.header_havehidelist_logo{
+  display: block !important;
+}
+
+/* End Header Moghaddamfar */
+/* ************************************************************************************************** */
+
 /*p1m*/
 .p1m-img-mobile{
   display:none;
