@@ -232,6 +232,7 @@
   overflow:hidden;
   background-color: var(--color-white);
   order: 3;
+  margin: 40px 0 0 30px;
 }
 .header__menuMobile__logo {
   display: flex;
@@ -471,7 +472,7 @@
   box-sizing: border-box;
   background: transparent;
   border: 0;
-  padding: 9px;
+  padding: 19px;
   z-index: 10;
 }
 .header_btnhamburger span {
