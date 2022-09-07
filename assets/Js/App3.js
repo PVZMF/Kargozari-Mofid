@@ -78,6 +78,8 @@ this.className +=" active";
     document.querySelectorAll(list[item]).forEach(elem => elem.style.display = "block");
     list.splice(item,1);
     list.forEach(elem =>  document.querySelectorAll(elem).forEach(elem => elem.style.display = "none"));
+    document.querySelector(".p3m3__active").classList.remove("p3m3__active");
+    document.querySelectorAll(".p3m3__btn")[item].classList.add("p3m3__active");
   }
 /*end p3m3 rezvan-ahmadbeigi*/
 
