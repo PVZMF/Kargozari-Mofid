@@ -992,7 +992,52 @@
    /*end p6m3 rezvan-ahmadbeigi*/
 /***********************************************************************************************************/
 
+/***********************************************************************************************************/
 /* begin footer moradi */
+.footer__main_page{
+  display:flex;
+  flex-direction: column;
+  text-align: center;
+  max-width:100%;
+  padding:80px 0;
+  margin-top: var(--space-7);
+}
+
+.footer__main_page > h1{
+  font-family:  "YekanBakh";
+  margin-bottom: var(--space-5);
+}
+
+.footer__container_logos{
+  display:flex;
+  flex-wrap: wrap;
+}
+
+.footer__logo{
+  width:33.33%;
+  height:93px;
+  margin-bottom: var(--space-4);
+}
+
+.footer__logos{
+  width: 100%;
+  height:93px;
+  margin-bottom: var(--space-4);
+}
+
+.logo{
+  width: 75px;
+  height: 75px;
+}
+
+.footer__logo p,
+.footer__logos p{
+  font-size: var(--size-text-12);
+  font-family:  "YekanBakh";
+
+}
+ /* ****************** */
+
 .footer__support{
   display:flex;
   flex-direction: column;
@@ -1009,7 +1054,7 @@
 }
 
 .footer__service{
-  font-size:var(--size-text-16);
+  font-size:vqr(--size-text-16);
   margin-bottom: var(--space-2);
   font-weight: bold;
 }
@@ -1131,7 +1176,7 @@ a{text-decoration: none;}
   font-family: "YekanBakh";
   border:none;
   border-radius: 8px 0 0 8px;
-  font-weight: 600;
+  font-weight: 600px;
 }
 
 .footer__copyright{
@@ -1160,7 +1205,6 @@ a{text-decoration: none;}
   color:var(--color-text-darker);
   line-height: 30px;
 }
-
 @media only screen and (min-width: 575px){
   .footer{
     padding-top:50px;
@@ -1210,7 +1254,7 @@ a{text-decoration: none;}
   }
 }
 /* end footer moradi */
-/***********************************************************************************************************/
+ /***********************************************************************************************************/
 
 /* <!-- ******************************************************************************************************** --> */
 /* <!-- ******************************************************************************************************** --> */

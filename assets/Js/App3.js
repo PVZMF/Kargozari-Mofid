@@ -72,6 +72,16 @@ this.className +=" active";
 }
 /*end p6m3 rezvan-ahmadbeigi*/
 
+/*start p3m3 rezvan-ahmadbeigi*/
+  function active(item){
+    let list =[".p3m3__hami",".p3m3__Karmozd",".p3m3__sabad",".p3m3__etebar",".p3m3__pellekan"];
+    document.querySelectorAll(list[item]).forEach(elem => elem.style.display = "block");
+    list.splice(item,1);
+    list.forEach(elem =>  document.querySelectorAll(elem).forEach(elem => elem.style.display = "none"));
+  }
+/*end p3m3 rezvan-ahmadbeigi*/
+
+
 // ****************************************************************************************************************** //
 /*Begin Header_page1 Moghaddamfa*/
 // Hamburger_menuMobile
